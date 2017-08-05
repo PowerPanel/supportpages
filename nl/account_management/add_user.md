@@ -1,8 +1,9 @@
-# Adding new users
+# Gebruikers toevoegen
 
-You can add new users to your account with multiple roles for example your webmaster or your accountant.
-To add a new user follow the next few steps:
+Je kan nieuwe gebruikers aanmaken binnen jouw account. Elke gebruiker kan een andere rol met rechten krijgen. Denk hierbij aan een rol webmaster of voor je boekhouder.
 
-Click on your name and select the users menu option
+Om een gebruiker aan je account te te voegen volgen je de onderstaande stappen:
+
+1) Klik op je naam bovenin het menu aan de linker kant.
 
 ![PowerPanel profile menu](/images/Screen-Shot-2017-05-23-at-15.47.33.png)
