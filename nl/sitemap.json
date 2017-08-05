@@ -1,0 +1,28 @@
+﻿{
+  "structure": [
+    {
+      "displayname": "Account beheer",
+      "description": "Hier uitleg over account beheer",
+      "type": "folder",
+      "name": "account_management",
+      "items": [
+        {
+          "displayname": "Account beheer",
+          "description": "Hier uitleg over account beheer",
+          "type": "folder",
+          "name": "my_customers",
+          "items": [ ]
+        }
+
+      ]
+    },
+    {
+      "displayname": "Gebruiker toevoegen",
+      "description": "Hier uitleg over gebruiker toevoegen",
+      "type": "file",
+      "name": "add_newuser.md"
+    }
+
+  ]
+  }
+
