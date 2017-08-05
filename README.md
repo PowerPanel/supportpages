@@ -8,8 +8,10 @@ For a cheetsheet download this file: https://guides.github.com/pdfs/markdown-che
 
 ## Repository Guidelines
 
-- There is a fixed menu structure. This is based on the PowerPanel menu items. Place al articles in the correct folders.
-- In the root folder you have an images folders. In this folder place al images used in the articles.
-- For every langauge folder there is a sitemap.json file. In this file you can find the structure of the support manual. In this file use the current language.
-- Create a new language folder use the ISO two-letter language codes (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+- There is a fixed menu structure. This is based on the PowerPanel menu items. Place all articles in the correct folders.
+- In the root folder you have an images folders. In this folder place all images used in the articles.
+- For every langauge folder there is a sitemap.json file. In this file you can find the structure of the support manual. Use the local langage in this file.
+- Creating a new language folder always use the ISO two-letter language codes (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 - All folder names need to be lowercase
+- Use always the full path to the images like below: 
+```![PowerPanel example](/support/images/photo.png)``` (Github does not show the image this is fine.)
