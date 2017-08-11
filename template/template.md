@@ -42,9 +42,9 @@ Try to keep the image's maximize to 400px width.
 Do you need anymore help or is this article not clear enough please contact us. [Contact us](/contact). Also you can improve this document to leave any suggestions in here [Edit on Github](template.md#1)
 
 <div class="blog-feedback">
-    <h2 class="blog-feedback-header with-twitter">
+    <p class="blog-feedback-header with-twitter">
       Have feedback on this post? Let <a href="https://twitter.com/intent/tweet?text=@powerpanel" target="blank">@powerpanel</a> know on Twitter.
-    </h2>
+    </p>
     <p class="blog-feedback-description">
       Need help or found a bug? <a href="/contact">Contact us</a>.
     </p>
