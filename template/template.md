@@ -4,8 +4,7 @@ Use this template to have a default for al support articles. Stick to this defau
 **Template starts below**
 
 
-
-# Support article title (use a short but clearl title for this article)
+# Support article title (use a short but clear title for this article)
 Short description about this support article. Give a few details what the reader can expect in this article and what the purpose is about the goal.
 
 
@@ -33,9 +32,23 @@ In some case's articles has common steps need to help the users. this is the cas
 ![Resources & Links](/template/images/template_image_4.jpg)
 
 ### 5. Take care of your images
-Using images or other media in the articles gives extra information and is also easy to read. Make sure your images has the same size in a document. Also keep the images small. Large images does load slower over the internet. But make sure the images are clear and the text is readable. Otherwise crop the part of the image your read has to focus on.
+Using images or other media in the articles gives extra information and is also easy to read. Make sure your images has the same size in a document. Also keep the images small. Large images does load slower over the internet. But make sure the images are clear and the text is readable. Otherwise crop the part of the image your need the attention of the reader on.
+
+Try to keep the image's maximize to 400px width.
 
 ![Resources & Links](/template/images/template_image_5.jpg)
 
 ### Last but not least
-If the article is finish, close always
+Do you need anymore help or is this article not clear enough please contact us. [Contact us](/contact). Also you can improve this document to leave any suggestions in here [Edit on Github](template.md#1)
+
+<div class="blog-feedback">
+    <h2 class="blog-feedback-header with-twitter">
+      Have feedback on this post? Let <a href="https://twitter.com/intent/tweet?text=@powerpanel" target="blank">@powerpanel</a> know on Twitter.
+    </h2>
+    <p class="blog-feedback-description">
+      Need help or found a bug? <a href="/contact">Contact us</a>.
+    </p>
+  </div>
+
+
+![Get support](/template/images/template_image_6.jpg)
