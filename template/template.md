@@ -42,6 +42,12 @@ Using images or other media in the articles gives extra information and make the
 
 ![Resources & Links](/template/images/template_image_5.png)
 
+### Related Articles
+Always try to find related articles and connect this. If there are not able to find any related, remove this item from the page. 
+Below are related articles or it may intrest you also:
+- [Article A](/linka)
+- [Article B](/linkb)
+
 ### Last but not least
 Do you need anymore help or is this article not clear enough? Please contact us here: [Contact us](/contact). You can also improve this document to leave any suggestions in here [Edit this page on Github](template.md#1)
 
@@ -49,3 +55,4 @@ Do you need anymore help or is this article not clear enough? Please contact us 
 - Need help or found a bug? [Contact us](/contact)    
 
 ![Get support](/template/images/template_image_6.jpg)
+
