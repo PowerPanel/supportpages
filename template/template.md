@@ -7,7 +7,7 @@ For information about this open source support pages please read the [main suppo
 
 
 # Support article title (use a short but clear title for this article)
-Short description about this support article. Give a few details what the reader can expect in this article and what the purpose of the goal is.
+Short description about this support article. Give a few details what the reader can expect in this article and what the purpose of the goal is. Make sure you use this title also in the value of 'displayname' in sitemap.json file. 
 
 
 ### 1. Start your journey
