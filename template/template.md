@@ -29,14 +29,14 @@ If your guide / article has a good structure users will find faster their goals.
 ### 4. Use other resources
 In some case's articles has common steps need to help the users. this is the case if a user need to logon to the system. Don't write the steps down how to logon, but link to the document where you have describe how to logon.
 
-![Resources & Links](/template/images/template_image_4.jpg)
+![Resources & Links](/template/images/template_image_4.png)
 
 ### 5. Take care of your images
 Using images or other media in the articles gives extra information and is also easy to read. Make sure your images has the same size in a document. Also keep the images small. Large images does load slower over the internet. But make sure the images are clear and the text is readable. Otherwise crop the part of the image your need the attention of the reader on.
 
 Try to keep the image's maximize to 400px width.
 
-![Resources & Links](/template/images/template_image_5.jpg)
+![Resources & Links](/template/images/template_image_5.png)
 
 ### Last but not least
 Do you need anymore help or is this article not clear enough please contact us. [Contact us](/contact). Also you can improve this document to leave any suggestions in here [Edit on Github](template.md#1)
