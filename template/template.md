@@ -43,7 +43,7 @@ Using images or other media in the articles gives extra information and make the
 ### Last but not least
 Do you need anymore help or is this article not clear enough please contact us. [Contact us](/contact). Also you can improve this document to leave any suggestions in here [Edit this page on Github](template.md#1)
 
-- Have feedback on this post? [Let @powerpanel know on Twitter](https://twitter.com/intent/tweet?text=@powerpanel")
+- Have feedback on this post? [Let @powerpanel_EN know on Twitter](https://twitter.com/intent/tweet?text=@powerpanel_en)
 - Need help or found a bug? [Contact us](/contact)    
 
 ![Get support](/template/images/template_image_6.jpg)
