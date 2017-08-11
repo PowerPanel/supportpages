@@ -15,12 +15,13 @@ For a cheetsheet download this file: https://guides.github.com/pdfs/markdown-che
 - For every langauge there is a own folder. In this folder you can find a sitemap.json file. This file is build on the default PowePanel menu menu structure. This structure will be used also for the support pages. 
 - If you want to create suport pages in a new language you can create a new language folder always use the ISO two-letter language codes (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 - Translate only then values on description and displayname in the json file. Leave the name and type unchanged  
-```    {
-      "displayname": "Gebruiker toevoegen",
-      "description": "Hier uitleg over gebruiker toevoegen",
-      "type": "file",
-      "name": "add_newuser.md"
-    }
+```    
+{
+    "displayname": "Gebruiker toevoegen",
+    "description": "Hier uitleg over gebruiker toevoegen",
+    "type": "file",
+    "name": "add_newuser.md"
+}
 ```
 - All folder names need to be lowercase
 - Use always the full path to the images like below: 
