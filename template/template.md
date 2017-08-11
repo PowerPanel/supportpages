@@ -1,6 +1,8 @@
 # Support page template
 Use this template to have a default for al support articles. Stick to this default layout to have a uniform support system. Below are the page layout and markup. You can copy and past this page to have this as a starting template.
 
+For information about this open source support pages please read the [main support manual](https://github.com/PowerPanel/support/blob/master/README.md)
+
 **Template starts below**
 
 
