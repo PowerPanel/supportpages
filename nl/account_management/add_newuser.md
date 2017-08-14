@@ -6,4 +6,4 @@ Om een gebruiker aan je account te te voegen volgen je de onderstaande stappen:
 
 1) Klik op je naam bovenin het menu aan de linker kant.
 
-![PowerPanel profile menu](/support/images/Screen-Shot-2017-05-23-at-15.47.33.png)
+![PowerPanel profile menu](/supportpages/images/Screen-Shot-2017-05-23-at-15.47.33.png)
