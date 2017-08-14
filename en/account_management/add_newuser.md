@@ -5,4 +5,4 @@ To add a new user follow the next few steps:
 
 Click on your name and select the users menu option
 
-![PowerPanel profile menu](/support/images/Screen-Shot-2017-05-23-at-15.47.33.png)
+![PowerPanel profile menu](../../images/Screen-Shot-2017-05-23-at-15.47.33.png)
