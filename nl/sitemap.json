@@ -7,22 +7,91 @@
       "name": "account_management",
       "items": [
         {
-          "displayname": "Account beheer",
-          "description": "Hier uitleg over account beheer",
+          "displayname": "Mijn klanten",
+          "description": "Hier uitleg over klanten beheer",
           "type": "folder",
           "name": "my_customers",
           "items": [ ]
+        },
+        {
+          "displayname": "Mijn abonnementen",
+          "description": "Hier uitleg over abonnementen",
+          "type": "folder",
+          "name": "subscriptions",
+          "items": [ ]
+        },
+        {
+          "displayname": "Gebruiker toevoegen",
+          "description": "Hier uitleg over gebruiker toevoegen",
+          "type": "file",
+          "permalink": "powerpanel-gebruiker-toevoegen",
+          "path": "/account_management/add_newuser.md"
         }
-
       ]
     },
     {
-      "displayname": "Gebruiker toevoegen",
-      "description": "Hier uitleg over gebruiker toevoegen",
-      "type": "file",
-      "name": "add_newuser.md"
+      "displayname": "Domein beheer",
+      "description": "Hier uitleg over domein beheer",
+      "type": "folder",
+      "name": "domain_management",
+      "items": [
+        {
+          "displayname": "Mijn domeinnamen",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "my_domains.md"
+        },
+        {
+          "displayname": "Domeincontacten",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "domaincontacts.md"
+        },
+                        {
+          "displayname": "Domeinnamen importeren",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "domain_import.md"
+        }
+      ]
+    },
+    {
+      "displayname": "Dashboard",
+      "description": "Hier uitleg over Dashboard",
+      "type": "folder",
+      "name": "dashboard"
+    },
+    {
+      "displayname": "Hosting beheer",
+      "description": "Hier uitleg over hosting beheer",
+      "type": "folder",
+      "name": "hosting_management"
+    },
+    {
+      "displayname": "SSL beheer",
+      "description": "Hier uitleg over SSL beheer",
+      "type": "folder",
+      "name": "ssl_management"
+    },
+    {
+      "displayname": "Verkoop",
+      "description": "Hier uitleg over verkoop",
+      "type": "folder",
+      "name": "sales"
+    },
+    {
+      "displayname": "Facturen",
+      "description": "Hier uitleg over facturen",
+      "type": "folder",
+      "name": "invoice_management"
+    },
+    {
+      "displayname": "Systeem",
+      "description": "Hier uitleg over het systeem",
+      "type": "folder",
+      "name": "system"
     }
 
   ]
-  }
+}
 

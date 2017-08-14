@@ -1,0 +1,206 @@
+﻿{
+  "structure": [
+    {
+      "displayname": "Dashboard",
+      "description": "Hier uitleg over Dashboard",
+      "type": "folder",
+      "name": "dashboard",
+      "items": [
+            {
+              "displayname": "LogonSupport access",
+              "description": "You need help or you want to help someone, use the Support access",
+              "path": "/dashboard/dashboard_support_access.md",
+              "permalink": "dashboard-users",
+              "type": "file"
+            }, 
+            {
+              "displayname": "Support access",
+              "description": "You need help or you want to help someone, use the Support access",
+              "path": "/dashboard/dashboard_support_access.md",
+              "permalink": "dashboard-users",
+              "type": "file"
+            },    {
+              "displayname": "Extending your license",
+              "description": "View, renew or terminate your license",
+              "path": "/dashboard/dashboard_manage_license.md",
+              "permalink": "dashboard-manage-your-license",
+              "type": "file"
+            },    {
+              "displayname": "Prepaid",
+              "description": "Prepaid: Make prepayments and the options",
+              "path": "/dashboard/dashboard_using_prepaid.md",
+              "permalink": "dashboard-using-prepaid",
+              "type": "file"
+            }
+      ]
+    },
+    {
+      "displayname": "Account management",
+      "description": "Manage your customers and their subscriptions. Creating new customer accounts, subscriptions and more.",
+      "type": "folder",
+      "name": "account_management",
+      "items": [
+        {
+          "displayname": "My customers",
+          "description": "Manage your customers and their subscriptions, domain names, etc",
+          "type": "folder",
+          "name": "my_customers",
+          "items": [
+            {
+              "displayname": "Customer users",
+              "description": "View, add and edit users for this customer",
+              "path": "/account_management/customer_users.md",
+              "permalink": "customer-users",
+              "type": "file"
+            },{
+              "displayname": "Customer domain names",
+              "description": "Manage domains for this customer",
+              "path": "/account_management/customer_domainnames.md",
+              "permalink": "customer-domainnames",
+              "type": "file"
+            },{
+              "displayname": "Customer subscriptions",
+              "description": "View, add and edit subscriptions for this customer",
+              "path": "/account_management/customer_subscriptions.md",
+              "permalink": "customer-subscriptions",
+              "type": "file"
+            },{
+              "displayname": "Customer invoices",
+              "description": "View and create invoices for this customer",
+              "path": "/account_management/customer_invoices.md",
+              "permalink": "customer-invoices",
+              "type": "file"
+            },{
+              "displayname": "Customer transactions",
+              "description": "View customer transactions",
+              "path": "/account_management/customer_transactions.md",
+              "permalink": "customer-transactions",
+              "type": "file"
+            },{
+              "displayname": "Customer orders",
+              "description": "View or process pending orders from this customer",
+              "path": "/account_management/customer_orders.md",
+              "permalink": "customer-orders",
+              "type": "file"
+            },{
+              "displayname": "Customer notes",
+              "description": "View, add and edit notes for this customer",
+              "path": "/account_management/customer_notes.md",
+              "permalink": "customer-notes",
+              "type": "file"
+            },{
+              "displayname": "Payments",
+              "description": "Customer payments",
+              "path": "/account_management/customer_payments.md",
+              "permalink": "customer-payments",
+              "type": "file"
+            },{
+              "displayname": "Customer affiliate",
+              "description": "Affiliate overview for this customer",
+              "path": "/account_management/customer_affiliate.md",
+              "permalink": "customer-affiliate",
+              "type": "file"
+            },{
+              "displayname": "Documents",
+              "description": "View, add and edit documents for this customer",
+              "path": "/account_management/customer_documents.md",
+              "permalink": "customer-documents",
+              "type": "file"
+            }
+
+          ]
+        },
+        {
+          "description": "Manage all your subscriptions",
+          "displayname": "My subscriptions",
+          "items": [ ],
+          "name": "subscriptions",
+          "type": "folder"
+        },
+        {
+          "description": "How to add a extra or new user to the panel",
+          "displayname": "Add a user",
+          "path": "/account_management/add_newuser.md",
+          "permalink": "add-new-user",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": "Domain names",
+      "description": "Managing & configuring domains, dns, whois details, dnssec, etc.",
+      "type": "folder",
+      "name": "domain_management",
+      "items": [
+        {
+          "displayname": "My domains",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "my_domains.md",
+          "permalink": "my-domains"
+        },
+        {
+          "displayname": "Domeincontacten",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "domaincontacts.md",
+          "permalink": "domain-contacts"
+        },
+        {
+          "displayname": "Domeinnamen importeren",
+          "description": "Hier uitleg over mijn domeinnamen",
+          "type": "file",
+          "name": "domain_import.md",
+          "permalink": "domain-import"
+        }
+      ]
+    },
+
+    {
+      "displayname": "Hosting",
+      "description": "Add new hosting servers, manage the websites from your customers. Create e-mail boxes, databases, FTP accounts, sub domains, domain aliases, manage your backups and more.",
+      "type": "folder",
+      "name": "hosting_management"
+    },
+    {
+      "displayname": "SSL Certificates",
+      "description": "Hier uitleg over SSL beheer",
+      "type": "folder",
+      "name": "ssl_management"
+    },
+    {
+      "displayname": "Sale",
+      "description": "Manage the orders from your customers. Manage webshop settings, branding, hosting plans, resources, coupon codes, discounts, domain extensions, prices and more.",
+      "type": "folder",
+      "name": "sales"
+    },
+    {
+      "displayname": "Invoices",
+      "description": "Create invoices, sending invoice reminders, approve new invoices, manage payments, settings and more.",
+      "type": "folder",
+      "name": "invoice_management"
+    },
+    {
+      "displayname": "System",
+      "description": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages.",
+      "type": "folder",
+      "name": "system"
+    },
+    {
+      "displayname": "General help",
+      "description": "A collection of support items about general possibilities",
+      "type": "folder",
+      "name": "general",
+      "items": [
+        {
+          "displayname": "Logon to PowerPanel or request your password",
+          "description": "You need help on how to logon to PowerPanel or lost your password?",
+          "path": "/general/general_howto_logon.md",
+          "permalink": "how-to-logon-or-request-password",
+          "type": "file"
+        }
+      ]
+    }
+
+  ]
+}
