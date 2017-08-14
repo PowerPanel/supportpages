@@ -26,4 +26,4 @@ For a cheetsheet download this file: https://guides.github.com/pdfs/markdown-che
 ```
 - All of the folder names need to be lowercase
 - Use always the full path to the images like below: 
-```![PowerPanel example](/support/images/photo.png)``` (Github does not show the image, this is fine.)
+```![PowerPanel example](/supportpages/images/photo.png)``` (Github does not show the image, this is fine.)
