@@ -2,7 +2,7 @@
 
 
 ## There are two ways that a new customer can be added to your PowerPanel.
-*  The customer can create an account for themself on the login page for your control panel. If you want to enable this look [here](http://support.powerpanel.io/create-customer/)
+*  The customer can create an account for themself on the login page for your control panel. If you want to enable this look [here](en/account_management/my_customers/create_customer.md)
 * You can add a customer in your customer grid view.
 
 To add a customer yourself go to Account Management -&gt; My customers and click on "Add customer"
