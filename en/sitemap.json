@@ -2,7 +2,7 @@
   "structure": [
     {
       "displayname": "Dashboard",
-      "description": "Hier uitleg over Dashboard",
+      "description": "Settings and need to know about the Dashboard",
       "type": "folder",
       "name": "dashboard",
       "items": [
@@ -134,7 +134,7 @@
       "items": [
         {
           "displayname": "My domains",
-          "description": "Hier uitleg over mijn domeinnamen",
+          "description": "What you need to know about my domains",
           "type": "file",
           "name": "my_domains.md",
           "permalink": "my-domains"
