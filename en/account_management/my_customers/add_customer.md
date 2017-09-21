@@ -7,11 +7,11 @@
 
 To add a customer yourself go to Account Management -&gt; My customers and click on "Add customer"
 
-![add_customer](/images/add_customer_button.png)
+![add_customer](/supportpages/images/add_customer_button.png)
 
 Fill in all the data in the next screen:
 
-![customer_data_screen](/images/customer_data.png)
+![customer_data_screen](/supportpages/images/customer_data.png)
 
 After you have filled in all the fields you can click on save.
 Your customer will recieve an email that he is added, and another email to validate his email address.

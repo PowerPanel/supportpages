@@ -1,4 +1,4 @@
-# PowerPanel domain forwarder
+﻿# PowerPanel domain forwarder
 
 PowerPanel comes with a free domain forwarding service. With this service you can add a domain name that forwards to another domain.
 To set this service up you will have to enable the plugin first, go to the marketplace and look for the plugin ‘PowerPanel forward service’. Install the plugin and enable it.
