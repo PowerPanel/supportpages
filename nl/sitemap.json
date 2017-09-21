@@ -119,7 +119,7 @@
               "displayname": "Import customers",
               "description": "Import your customers with an excel sheet",
               "path": "/account_management/my_customers/import_customers.md",
-              "permalink": "customer-documents",
+              "permalink": "import-customers",
               "type": "file"
             }
 
