@@ -19,14 +19,14 @@
           "path": "/dashboard/dashboard_manage_license.md",
           "permalink": "dashboard-manage-your-license",
           "type": "file"
-        },   
-         {
-              "displayname": "Prepaid",
-              "description": "Prepaid: Make prepayments and the options",
-              "path": "/dashboard/dashboard_using_prepaid.md",
-              "permalink": "dashboard-using-prepaid",
-              "type": "file"
-            }
+        },
+        {
+          "description": "Make a prepayment and the payment options",
+          "displayname": "Make a prepayment",
+          "path": "/dashboard/dashboard_using_prepaid.md",
+          "permalink": "dashboard-using-prepaid",
+          "type": "file"
+        }
       ]
     },
     {
@@ -42,63 +42,83 @@
           "name": "my_customers",
           "items": [
             {
+              "displayname": "Adding users",
+              "description": "User manager for your account",
+              "path": "/account_management/my_customers/add_user.md",
+              "permalink": "adding-users",
+              "type": "file"
+            },
+            {
+              "displayname": "Adding customers",
+              "description": "Add a new customer",
+              "path": "/account_management/my_customers/add_customer.md",
+              "permalink": "adding-customer",
+              "type": "file"
+            },
+            {
               "displayname": "Customer users",
               "description": "View, add and edit users for this customer",
-              "path": "/account_management/customer_users.md",
+              "path": "/account_management/my_customers/customer_users.md",
               "permalink": "customer-users",
               "type": "file"
             },{
               "displayname": "Customer domain names",
               "description": "Manage domains for this customer",
-              "path": "/account_management/customer_domainnames.md",
+              "path": "/account_management/my_customers/customer_domainnames.md",
               "permalink": "customer-domainnames",
               "type": "file"
             },{
               "displayname": "Customer subscriptions",
               "description": "View, add and edit subscriptions for this customer",
-              "path": "/account_management/customer_subscriptions.md",
+              "path": "/account_management/my_customers/customer_subscriptions.md",
               "permalink": "customer-subscriptions",
               "type": "file"
             },{
               "displayname": "Customer invoices",
               "description": "View and create invoices for this customer",
-              "path": "/account_management/customer_invoices.md",
+              "path": "/account_management/my_customers/customer_invoices.md",
               "permalink": "customer-invoices",
               "type": "file"
             },{
               "displayname": "Customer transactions",
               "description": "View customer transactions",
-              "path": "/account_management/customer_transactions.md",
+              "path": "/account_management/my_customers/customer_transactions.md",
               "permalink": "customer-transactions",
               "type": "file"
             },{
               "displayname": "Customer orders",
               "description": "View or process pending orders from this customer",
-              "path": "/account_management/customer_orders.md",
+              "path": "/account_management/my_customers/customer_orders.md",
               "permalink": "customer-orders",
               "type": "file"
             },{
               "displayname": "Customer notes",
               "description": "View, add and edit notes for this customer",
-              "path": "/account_management/customer_notes.md",
+              "path": "/account_management/my_customers/customer_notes.md",
               "permalink": "customer-notes",
               "type": "file"
             },{
-              "displayname": "Payments",
-              "description": "Customer payments",
-              "path": "/account_management/customer_payments.md",
+              "displayname": "Customer Payments",
+              "description": "Manage customer payments",
+              "path": "/account_management/my_customers/customer_payments.md",
               "permalink": "customer-payments",
               "type": "file"
             },{
               "displayname": "Customer affiliate",
               "description": "Affiliate overview for this customer",
-              "path": "/account_management/customer_affiliate.md",
+              "path": "/account_management/my_customers/customer_affiliate.md",
               "permalink": "customer-affiliate",
               "type": "file"
             },{
               "displayname": "Documents",
               "description": "View, add and edit documents for this customer",
-              "path": "/account_management/customer_documents.md",
+              "path": "/account_management/my_customers/customer_documents.md",
+              "permalink": "customer-documents",
+              "type": "file"
+            },{
+              "displayname": "Import customers",
+              "description": "Import your customers with an excel sheet",
+              "path": "/account_management/my_customers/import_customers.md",
               "permalink": "customer-documents",
               "type": "file"
             }
@@ -150,7 +170,6 @@
         }
       ]
     },
-
     {
       "displayname": "Hosting",
       "description": "Add new hosting servers, manage the websites from your customers. Create e-mail boxes, databases, FTP accounts, sub domains, domain aliases, manage your backups and more.",
@@ -179,7 +198,26 @@
       "displayname": "System",
       "description": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages.",
       "type": "folder",
-      "name": "system"
+      "name": "system",
+      "items": [
+        {
+          "description": "PowerPanel plugin settings and other plugin options",
+          "displayname": "Plugin settings",
+          "name": "plugin-settings",
+          "type": "folder",
+          "items": [
+            {
+              "description": "Domain forwarding service in PowerPanel",
+              "displayname": "PowerPanel Domain forwarding",
+              "path": "/system/plugins/powerpanel_domain_forwarding.md",
+              "permalink": "powerpanel-domain-forwarding",
+              "type": "file"
+            }
+
+          ]
+        }
+
+      ]
     },
     {
       "displayname": "General help",
