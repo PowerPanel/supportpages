@@ -2,23 +2,25 @@
   "structure": [
     {
       "displayname": "Dashboard",
-      "description": "Instellingen en mogelijkheden over het PowerPanel Dashboard",
+      "description": "Settings and need to know about the Dashboard",
       "type": "folder",
       "name": "dashboard",
       "items": [
-            {
-              "displayname": "Support access",
-              "description": "You need help or you want to help someone, use the Support access",
-              "path": "/dashboard/support_access.md",
-              "permalink": "dashboard-support-access",
-              "type": "file"
-            },    {
-              "displayname": "Extending your license",
-              "description": "View, renew or terminate your license",
-              "path": "/dashboard/dashboard_manage_license.md",
-              "permalink": "dashboard-manage-your-license",
-              "type": "file"
-            },    {
+        {
+          "displayname": "Give access to your account",
+          "description": "You need help or you want to help someone, use the Support access",
+          "path": "/dashboard/dashboard_support_access.md",
+          "permalink": "dashboard-support-access",
+          "type": "file"
+        },
+        {
+          "displayname": "Extending your license",
+          "description": "View, renew or terminate your license",
+          "path": "/dashboard/dashboard_manage_license.md",
+          "permalink": "dashboard-manage-your-license",
+          "type": "file"
+        },   
+         {
               "displayname": "Prepaid",
               "description": "Prepaid: Make prepayments and the options",
               "path": "/dashboard/dashboard_using_prepaid.md",
@@ -127,7 +129,7 @@
       "items": [
         {
           "displayname": "My domains",
-          "description": "Hier uitleg over mijn domeinnamen",
+          "description": "What you need to know about my domains",
           "type": "file",
           "name": "my_domains.md",
           "permalink": "my-domains"

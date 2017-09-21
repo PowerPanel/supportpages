@@ -6,32 +6,27 @@
       "type": "folder",
       "name": "dashboard",
       "items": [
-            {
-              "displayname": "LogonSupport access",
-              "description": "You need help or you want to help someone, use the Support access",
-              "path": "/dashboard/dashboard_support_access.md",
-              "permalink": "dashboard-users",
-              "type": "file"
-            }, 
-            {
-              "displayname": "Support access",
-              "description": "You need help or you want to help someone, use the Support access",
-              "path": "/dashboard/dashboard_support_access.md",
-              "permalink": "dashboard-users",
-              "type": "file"
-            },    {
-              "displayname": "Extending your license",
-              "description": "View, renew or terminate your license",
-              "path": "/dashboard/dashboard_manage_license.md",
-              "permalink": "dashboard-manage-your-license",
-              "type": "file"
-            },    {
-              "displayname": "Prepaid",
-              "description": "Prepaid: Make prepayments and the options",
-              "path": "/dashboard/dashboard_using_prepaid.md",
-              "permalink": "dashboard-using-prepaid",
-              "type": "file"
-            }
+        {
+          "displayname": "Give access to your account",
+          "description": "You need help or you want to help someone, use the Support access",
+          "path": "/dashboard/dashboard_support_access.md",
+          "permalink": "dashboard-support-access",
+          "type": "file"
+        },
+        {
+          "displayname": "Extending your license",
+          "description": "View, renew or terminate your license",
+          "path": "/dashboard/dashboard_manage_license.md",
+          "permalink": "dashboard-manage-your-license",
+          "type": "file"
+        },
+        {
+          "description": "Make a prepayment and the payment options",
+          "displayname": "Make a prepayment",
+          "path": "/dashboard/dashboard_using_prepaid.md",
+          "permalink": "dashboard-using-prepaid",
+          "type": "file"
+        }
       ]
     },
     {
