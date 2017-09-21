@@ -2,7 +2,7 @@
   "structure": [
     {
       "displayname": "Dashboard",
-      "description": "Hier uitleg over Dashboard",
+      "description": "Instellingen en mogelijkheden over het PowerPanel Dashboard",
       "type": "folder",
       "name": "dashboard",
       "items": [
