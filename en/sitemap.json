@@ -212,6 +212,13 @@
               "path": "/system/plugins/powerpanel_domain_forwarding.md",
               "permalink": "powerpanel-domain-forwarding",
               "type": "file"
+            },
+                        {
+              "description": "PowerPanel DNS plugin",
+              "displayname": "PowerPanel DNS plugin",
+              "path": "/system/plugins/powerpanel_dns_plugin.md",
+              "permalink": "powerpanel-dns-plugin",
+              "type": "file"
             }
 
           ]

@@ -1,6 +1,6 @@
-# PowerPanel PowerDNS plugin
+# PowerPanel DNS plugin
 
-We provide a PowerDNS plugin which you can use to manage the DNS from within PowerPanel. To enable this plugin you have to follow the next few steps.
+We provide a PowerPanel DNS plugin which you can use to manage the DNS from within PowerPanel. To enable this plugin you have to follow the next few steps.
 First you will have to install the plugin. Go to the Settings -> Plugins and search for PowerPanel DNS. You will only have to switch the plugin on to install it.
 
 ![PowerPanel PowerDNS](/images/plugin_powerpanel_dns.png)
