@@ -219,6 +219,13 @@
               "path": "/system/plugins/powerpanel_dns_plugin.md",
               "permalink": "powerpanel-dns-plugin",
               "type": "file"
+            },
+                        {
+              "description": "Openprovider SSL plugin",
+              "displayname": "Openprovider SSL plugin",
+              "path": "/system/plugins/openprovider_ssl_plugin.md",
+              "permalink": "openprovider-ssl-plugin",
+              "type": "file"
             }
 
           ]
@@ -238,7 +245,15 @@
           "path": "/general/general_howto_logon.md",
           "permalink": "how-to-logon-or-request-password",
           "type": "file"
+        },{
+          "displayname": "Openprovider generate API key",
+          "description": "Connection your Openprovider account to PowerPanel, You need to enable API access.",
+          "path": "/general/openprovider_generate_api_key.md",
+          "permalink": "generate-openprovider-api-key",
+          "type": "file"
         }
+
+        
       ]
     }
 
