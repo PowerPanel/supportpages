@@ -23,4 +23,10 @@ Now you have create an new user with API access. Click on this new generated use
 
 ![New user details](/supportpages/images/openprovider_images/new_user.png)
 
+Scroll down till you see the section "API Access" and "Password hash". There you see the Password hash hidden. You can not view the Password hash, so you need to generate a new one. Fill in your account password (this is the same password where you have logged on in the first step) and click the button "Generate new password".
+
+![Password hash](/supportpages/images/openprovider_images/password_hash.png)
+
+Now the new Password hash is visable on your screen. Don't forgot to copy this and save it samewhere save. You can not access this Password hash anymore after you have click the update button. 
+![New Password hash](/supportpages/images/openprovider_images/password_hash_new.png)
 
