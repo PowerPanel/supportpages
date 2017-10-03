@@ -1,4 +1,4 @@
-﻿# Generate Openprovider API key
+# Generate Openprovider API key
 
 PowerPanel has a several Openprovider plugins. To use this plugins you need to generate API key and enable API access in your Openrpovider account.
 
@@ -13,13 +13,13 @@ After you are loggoned to the Openprovider panel you click in the left menu "Acc
 
 ![Adding new contact](/supportpages/images/openprovider_images/add_contact_person.png)
 
-Now you got the below form on your screen. Please fillin the required fields. Make sure you choose the Type of contact "technical contact" and enable the Api access.
+Now you got the below form on your screen. Please fill in the required fields. Make sure you choose the Type of contact "technical contact" and enable the Api access.
 
 ![User contact form](/supportpages/images/openprovider_images/account_form.png)
 
 ### 3. Generate API key
 
-Now you have create an new user with API access. Click on this new generated user and click on the top on the "Edit" button.
+You have create an new user with API access. Click on this new generated user and click on the top on the "Edit" button.
 
 ![New user details](/supportpages/images/openprovider_images/new_user.png)
 
@@ -27,6 +27,6 @@ Scroll down till you see the section "API Access" and "Password hash". There you
 
 ![Password hash](/supportpages/images/openprovider_images/password_hash.png)
 
-Now the new Password hash is visable on your screen. Don't forgot to copy this and save it samewhere save. You can not access this Password hash anymore after you have click the update button. 
+Now the new Password hash is visible on your screen. Don't forgot to copy this and save it samewhere save. You can not access this Password hash anymore after you have click the update button. 
 ![New Password hash](/supportpages/images/openprovider_images/password_hash_new.png)
 

@@ -5,7 +5,7 @@ With the SpamExperts plugins for incoming and outgoing email filtering you can g
 To get started with this plugin go to System -> Plugins and look for the SpamExperts plugin, click on install and fill in your details.
 Both the incoming and the outgoing spamfilter can be sold separately by installing one of the plugins. The set up for both plugins works the same way.
 
-![Spamexperts settings](/images/plugin_spamexperts.png)
+![Spamexperts settings](/supportpages/images/plugin_spamexperts.png)
 
 Once you have filled in all your details and enabled the plugin you can go create a hosting add-on and add it to a hosting package.
 
@@ -13,7 +13,7 @@ More information about how to create a hosting add-on can [be found in this item
 
 If one of your customers has a hosting package with the SpamExperts addon he can use single sign on from within PowerPanel to check his spamfilter.
 
-![Spamfilter plugin view](/images/spamfilter_detail_view.png)
+![Spamfilter plugin view](/supportpages/images/spamfilter_detail_view.png)
 
 For the outgoing filter your customer will see his address and port based on the settings that you have entered.
 
@@ -25,8 +25,8 @@ Step 1) Logon with your admin account (Or account where you have enough permissi
 
 Step 2) Go to server and click software API users. there you need to create an account voor the PowerPanel plugin.
 
-![Spamexperts 1](/images/spamexperts_1.png)
+![Spamexperts 1](/supportpages/images/spamexperts_1.png)
 
 Step 3) Go to Webinterface users and click Manage super-admins. there you need to create an account voor the PowerPanel plugin.
 
-![Spamexperts 2](/images/spamexperts_2.png)
+![Spamexperts 2](/supportpages/images/spamexperts_2.png)
