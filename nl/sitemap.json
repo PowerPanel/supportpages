@@ -220,13 +220,21 @@
               "permalink": "powerpanel-dns-plugin",
               "type": "file"
             },
-                        {
+            {
               "description": "Openprovider SSL plugin",
               "displayname": "Openprovider SSL plugin",
               "path": "/system/plugins/openprovider_ssl_plugin.md",
               "permalink": "openprovider-ssl-plugin",
               "type": "file"
+            },
+            {
+              "description": "Spamexperts e-mail filtering (in going & out going)",
+              "displayname": "Spamexperts e-mail filtering",
+              "path": "/system/plugins/spamexperts_email_filtering.md",
+              "permalink": "spamexperts-email-filtering",
+              "type": "file"
             }
+            
 
           ]
         }
