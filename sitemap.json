@@ -420,7 +420,23 @@
         "nl": "Beheer SSL ceritificaten"
       },
       "type": "folder",
-      "name": "ssl_management"
+      "name": "ssl_management",
+      "items": [
+                {
+          "displayname": {
+            "en": "SSL management",
+            "nl": "SSL management"
+          },
+          "description": {
+            "en": "SSL management",
+            "nl": "SSL management"
+          },
+          "path": "/ssl_certificates/ssl_management.md",
+          "permalink": "ssl-management",
+          "type": "file"
+        }
+
+      ]
     },
     {
       "displayname": {
