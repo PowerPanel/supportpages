@@ -1,0 +1,624 @@
+﻿{
+  "structure": [
+    {
+      "displayname": {
+        "en": "Dashboard",
+        "nl": "Dashboard"
+      },
+      "description": {
+        "en": "Settings and need to know about the Dashboard",
+        "nl": "Instellingen en weetjes over het Dashboard"
+      },
+      "type": "folder",
+      "name": "dashboard",
+      "items": [
+        {
+          "displayname": {
+            "en": "Give access to your account",
+            "nl": "Toegang verlenen aan je account"
+          },
+          "description": {
+            "en": "You need help or you want to help someone, use the Support access",
+            "nl": "Heb je hulp nodig of wil je iemand anders helpen, gebruik dan de support toegang"
+          },
+          "path": "/dashboard/dashboard_support_access.md",
+          "permalink": "dashboard-support-access",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Extending your license",
+            "nl": "Licentie verlengen"
+          },
+          "description": {
+            "en": "View, renew or terminate your license",
+            "nl": "Bekijk, verleng en je licentie opzeggen"
+          },
+          "path": "/dashboard/dashboard_manage_license.md",
+          "permalink": "dashboard-manage-your-license",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Make a prepayment",
+            "nl": "Betaling doen"
+          },
+          "description": {
+            "en": "Make a prepayment and the payment options",
+            "nl": "Maak een pre-payment betaling"
+          },
+          "path": "/dashboard/dashboard_using_prepaid.md",
+          "permalink": "dashboard-using-prepaid",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Account management",
+        "nl": "Account management"
+      },
+      "description": {
+        "en": "Manage your customers and their subscriptions. Creating new customer accounts, subscriptions and more.",
+        "nl": "Manage your customers and their subscriptions. Creating new customer accounts, subscriptions and more."
+      },
+      "type": "folder",
+      "name": "account_management",
+      "items": [
+        {
+          "displayname": {
+            "en": "My customers",
+            "nl": "My customers"
+          },
+          "description": {
+            "en": "Manage your customers and their subscriptions, domain names, etc",
+            "nl": "IManage your customers and their subscriptions, domain names, etc"
+          },
+          "type": "folder",
+          "name": "my_customers",
+          "items": [
+            {
+              "displayname": {
+                "en": "Adding users",
+                "nl": "Adding users"
+              },
+              "description": {
+                "en": "User manager for your account",
+                "nl": "User manager for your account"
+              },
+              "path": "/account_management/my_customers/add_user.md",
+              "permalink": "adding-users",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Adding customers",
+                "nl": "Adding customers"
+              },
+              "description": {
+                "en": "Add a new customer",
+                "nl": "IAdd a new customer"
+              },
+              "path": "/account_management/my_customers/add_customer.md",
+              "permalink": "adding-customer",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer users",
+                "nl": "Customer users"
+              },
+              "description": {
+                "en": "View, add and edit users for this customer",
+                "nl": "View, add and edit users for this customer"
+              },
+              "path": "/account_management/my_customers/customer_users.md",
+              "permalink": "customer-users",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer domain names",
+                "nl": "Customer domain names"
+              },
+              "description": {
+                "en": "Manage domains for this customer",
+                "nl": "IManage domains for this customer"
+              },
+              "path": "/account_management/my_customers/customer_domainnames.md",
+              "permalink": "customer-domainnames",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer subscriptions",
+                "nl": "Klant abonnementen"
+              },
+              "description": {
+                "en": "View, add and edit subscriptions for this customer",
+                "nl": "View, add and edit subscriptions for this customer"
+              },
+              "path": "/account_management/my_customers/customer_subscriptions.md",
+              "permalink": "customer-subscriptions",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer invoices",
+                "nl": "Klant facturen"
+              },
+              "description": {
+                "en": "View and create invoices for this customer",
+                "nl": "View and create invoices for this customer"
+              },
+              "path": "/account_management/my_customers/customer_invoices.md",
+              "permalink": "customer-invoices",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer transactions",
+                "nl": "Customer transactions"
+              },
+              "description": {
+                "en": "View customer transactions",
+                "nl": "View customer transactions"
+              },
+              "path": "/account_management/my_customers/customer_transactions.md",
+              "permalink": "customer-transactions",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer orders",
+                "nl": "Klant bestellingen"
+              },
+              "description": {
+                "en": "View or process pending orders from this customer",
+                "nl": "View or process pending orders from this customer"
+              },
+              "path": "/account_management/my_customers/customer_orders.md",
+              "permalink": "customer-orders",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer notes",
+                "nl": "Klant notities"
+              },
+              "description": {
+                "en": "View, add and edit notes for this customer",
+                "nl": "View, add and edit notes for this customer"
+              },
+              "path": "/account_management/my_customers/customer_notes.md",
+              "permalink": "customer-notes",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer Payments",
+                "nl": "Klant betalingen"
+              },
+              "description": {
+                "en": "Manage customer payments",
+                "nl": "Beheer klant betalingen"
+              },
+              "path": "/account_management/my_customers/customer_payments.md",
+              "permalink": "customer-payments",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer affiliate",
+                "nl": "Customer affiliate"
+              },
+              "description": {
+                "en": "Affiliate overview for this customer",
+                "nl": "Affiliate overview for this customer"
+              },
+              "path": "/account_management/my_customers/customer_affiliate.md",
+              "permalink": "customer-affiliate",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Customer documents",
+                "nl": "Klant documenten"
+              },
+              "description": {
+                "en": "View, add and edit documents for this customer",
+                "nl": "Bekijken, verwijderen en bewerken van klant documenten"
+              },
+              "path": "/account_management/my_customers/customer_documents.md",
+              "permalink": "customer-documents",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Import customers",
+                "nl": "Import klanten"
+              },
+              "description": {
+                "en": "Import your customers with an excel sheet",
+                "nl": "Importeer je klanten vanuit een excel sheet"
+              },
+              "path": "/account_management/my_customers/import_customers.md",
+              "permalink": "import-customers",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "displayname": {
+            "en": "My subscriptions",
+            "nl": "Mijn abonnementen"
+          },
+          "description": {
+            "en": "Manage all your subscriptions",
+            "nl": "IManage all your subscriptions"
+          },
+          "name": "subscriptions",
+          "type": "folder",
+          "items": [
+            {
+              "displayname": {
+                "en": "Change subscription end date",
+                "nl": "Wijzig abonnement Eind datum"
+              },
+              "description": {
+                "en": "Change the subscription end date",
+                "nl": "Abonnement eind datum aanpassen"
+              },
+              "path": "/account_management/my_subscriptions/change_end_date_subscription.md",
+              "permalink": "change-end-date-subscription",
+              "type": "file"
+            }
+
+          ]
+        },
+        {
+          "displayname": {
+            "en": "Add a user",
+            "nl": "Gebruiker toevoegen"
+          },
+          "description": {
+            "en": "How to add a extra or new user to PowerPanel",
+            "nl": "Hoe je een extra gebruiker kan toevoegen aan PowerPanel"
+          },
+          "path": "/account_management/add_newuser.md",
+          "permalink": "add-new-user",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Domain names",
+        "nl": "Domeinnamen"
+      },
+      "description": {
+        "en": "Managing domains, whois data, nameserver settings, DNS, DNSsec",
+        "nl": "Beheer domeinnamen, whois gegevens aanpassen, nameserver settings, dns beheer, dnssec"
+      },
+      "type": "folder",
+      "name": "domain_management",
+      "items": [
+        {
+          "displayname": {
+            "en": "My domains",
+            "nl": "Mijn domeinen"
+          },
+          "description": {
+            "en": "Managing domains, whois data, nameserver settings, DNS, DNSsec",
+            "nl": "Beheer domeinnamen, whois gegevens aanpassen, nameserver settings, dns beheer, dnssec"
+          },
+          "type": "file",
+          "path": "/domain_names/my_domains.md",
+          "permalink": "my-domains"
+        },
+        {
+          "displayname": {
+            "en": "Mange domains error status",
+            "nl": "Verwerk domein met fout"
+          },
+          "description": {
+            "en": "Managing domains is error status or other then active",
+            "nl": "Beheer domeinnamen met een fout status of anders dan actief"
+          },
+          "type": "file",
+          "path": "/domain_names/manage_error_domains.md",
+          "permalink": "manage-error-domains"
+        },
+        {
+          "displayname": {
+            "en": "Domaincontacts",
+            "nl": "Domeincontacten"
+          },
+          "description": {
+            "en": "Manage your domain contacts",
+            "nl": "Beheer je domein contacten"
+          },
+          "type": "file",
+          "path": "/domain_names/domaincontacts.md",
+          "permalink": "domain-contacts"
+        },
+        {
+          "displayname": {
+            "en": "Import domains",
+            "nl": "Domeinnamen importeren"
+          },
+          "description": {
+            "en": "Imports your domains",
+            "nl": "Domeinnamen importeren"
+          },
+          "type": "file",
+          "path": "/domain_names/domain_import.md",
+          "permalink": "domain-import"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Hosting",
+        "nl": "Hosting"
+      },
+      "description": {
+        "en": "Add new hosting servers, manage the websites from your customers. Create e-mail boxes, databases, FTP accounts, sub domains, domain aliases, manage your backups and more.",
+        "nl": "Add new hosting servers, manage the websites from your customers. Create e-mail boxes, databases, FTP accounts, sub domains, domain aliases, manage your backups and more."
+      },
+      "type": "folder",
+      "name": "hosting_management",
+      "items": [
+        {
+          "displayname": {
+            "en": "Connecting your DirectAdmin server",
+            "nl": "Connecting your DirectAdmin server"
+          },
+          "description": {
+            "en": "Connecting your DirectAdmin server",
+            "nl": "Connecting your DirectAdmin server"
+          },
+          "path": "/hosting/my_servers/add_directadmin_server.md",
+          "permalink": "add-directadmin-server",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Connecting Plesk server to PowerPanel",
+            "nl": "Connecting Plesk server to PowerPanel"
+          },
+          "description": {
+            "en": "Connecting Plesk server to PowerPanel",
+            "nl": "Connecting Plesk server to PowerPanel"
+          },
+          "path": "/hosting/my_servers/add_plesk_server.md",
+          "permalink": "add-plesk-server",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Resolve site conflicts",
+            "nl": "Resolve site conflicts"
+          },
+          "description": {
+            "en": "Import your current hosting / websites from your server",
+            "nl": "Import your current hosting / websites from your server"
+          },
+          "path": "/hosting/site_conflicts/resolve_site_conflicts.md",
+          "permalink": "resolve-site-conflicts",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "SSL Certificates",
+        "nl": "SSL Certificaten"
+      },
+      "description": {
+        "en": "Mange SSL certificates",
+        "nl": "Beheer SSL ceritificaten"
+      },
+      "type": "folder",
+      "name": "ssl_management"
+    },
+    {
+      "displayname": {
+        "en": "Sale",
+        "nl": "Verkoop"
+      },
+      "description": {
+        "en": "Manage the orders from your customers. Manage webshop settings, branding, hosting plans, resources, coupon codes, discounts, domain extensions, prices and more.",
+        "nl": "Beheer van bestellingen van jouw klanten. Beheer webshop isntellingen, hosting pakketten, resources, coupon codes, kortingen, domein extensies, prijzen en meer "
+      },
+      "type": "folder",
+      "name": "sales"
+    },
+    {
+      "displayname": {
+        "en": "Invoices",
+        "nl": "Facturen"
+      },
+      "description": {
+        "en": "Create invoices, sending invoice reminders, approve new invoices, manage payments, settings and more.",
+        "nl": "Facturen aanmaken, verzenden van herrineringen, goedkeuren van facturen, betalingen verwerken en andere instellingen."
+      },
+      "type": "folder",
+      "name": "invoice_management"
+    },
+    {
+      "displayname": {
+        "en": "System",
+        "nl": "Systeem"
+      },
+      "description": {
+        "en": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages.",
+        "nl": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages."
+      },
+      "type": "folder",
+      "name": "system",
+      "items": [
+        {
+          "displayname": {
+            "en": "Plugin settings",
+            "nl": "Plugin instellingen"
+          },
+          "description": {
+            "en": "PowerPanel plugin settings and other plugin options",
+            "nl": "PowerPanel plugin instellingen en andere plugin mogelijkheden"
+          },
+          "name": "plugin-settings",
+          "type": "folder",
+          "items": [
+            {
+              "displayname": {
+                "en": "PowerPanel Domain forwarding",
+                "nl": "PowerPanel Domain forwarding"
+              },
+              "description": {
+                "en": "Domain forwarding service in PowerPanel",
+                "nl": "Domain forwarding service in PowerPanel"
+              },
+              "path": "/system/plugins/powerpanel_domain_forwarding.md",
+              "permalink": "powerpanel-domain-forwarding",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "PowerPanel DNS plugin",
+                "nl": "PowerPanel DNS plugin"
+              },
+              "description": {
+                "en": "PowerPanel DNS plugin",
+                "nl": "PowerPanel DNS plugin"
+              },
+              "path": "/system/plugins/powerpanel_dns_plugin.md",
+              "permalink": "powerpanel-dns-plugin",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Openprovider SSL plugin",
+                "nl": "Openprovider SSL plugin"
+              },
+              "description": {
+                "en": "Openprovider SSL plugin",
+                "nl": "Openprovider SSL plugin"
+              },
+              "path": "/system/plugins/openprovider_ssl_plugin.md",
+              "permalink": "openprovider-ssl-plugin",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Spamexperts e-mail filtering",
+                "nl": "Spamexperts e-mail filtering"
+              },
+              "description": {
+                "en": "Spamexperts e-mail filtering (in going & out going)",
+                "nl": "Spamexperts e-mail filtering (in en uitgaand)"
+              },
+              "path": "/system/plugins/spamexperts_email_filtering.md",
+              "permalink": "spamexperts-email-filtering",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "General help",
+        "nl": "Algemene hulp"
+      },
+      "description": {
+        "en": "A collection of support items about general possibilities",
+        "nl": "Een aantal support items met een algemeen karakter"
+      },
+      "name": "general",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "Logon or request your password",
+            "nl": "Inloggen of je wachtwoord opvragen"
+          },
+          "description": {
+            "en": "You need help on how to logon to PowerPanel or lost your password?",
+            "nl": "Heb je hulp nodig om aan te melden op PowerPanel of ben je je wachtwoord kwijt?"
+          },
+          "path": "/general/general_howto_logon.md",
+          "permalink": "how-to-logon-or-request-password",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Openprovider generate API key",
+            "nl": "Openprovider API key genereren"
+          },
+          "description": {
+            "en": "Connect your Openprovider account to PowerPanel, You need to enable API access.",
+            "nl": "Verbind je Openprovider account met PowerPanel, je moet wel API toegang inschakelen"
+          },
+          "path": "/general/openprovider_generate_api_key.md",
+          "permalink": "generate-openprovider-api-key",
+          "type": "file"
+        }
+      ]
+    },
+
+     {
+      "displayname": {
+        "en": "API Documents",
+        "nl": "API Documentatie"
+      },
+      "description": {
+        "en": "PowerPanel API & webhooks",
+        "nl": "PowerPanel API & webhooks"
+      },
+      "name": "api",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "API documentation & Examples",
+            "nl": "API documentatie & Voorbeelden"
+          },
+          "description": {
+            "en": "PowerPanel API",
+            "nl": "PowerPanel API"
+          },
+          "path": "/api/api_documentation.md",
+          "permalink": "api-documentation",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Generate API key",
+            "nl": "Generate API key"
+          },
+          "description": {
+            "en": "Activate API access & generate API key",
+            "nl": "Activate API access & generate API key"
+          },
+          "path": "/api/create_api_key.md",
+          "permalink": "create-api-key",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Get the pricelist from the API",
+            "nl": "Prijslist ophalen via API"
+          },
+          "description": {
+            "en": "Get the pricelist from the API",
+            "nl": "Prijslist ophalen via API"
+          },
+          "path": "/api/get_pricelist_api.md",
+          "permalink": "get-pricelist-api",
+          "type": "file"
+        }
+      ]
+    }
+  ]
+}
