@@ -1,4 +1,4 @@
-# API documentation
+# API documentation & Examples
 
 Our API documentation can be found [here](https://api.powerpanel.io/docs/)
 

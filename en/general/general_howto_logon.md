@@ -31,11 +31,3 @@ If your e-mail address is correct and found in the database, there will be send 
 After the password has accepted you can logon. There will be send out a confirmation e-mail your password has changed.
 
 ![enter a new password](/supportpages/images/powerpanel-enter-new-password.png)
-
-### Still need assistant or this page is not clear?
-Do you need anymore help or is this article not clear enough? Please contact us here: [Contact us](/contact).
-
-- Have feedback on this post? [Let @powerpanel_EN know on Twitter](https://twitter.com/intent/tweet?text=@powerpanel_en)
-- Need help or found a bug? [Contact us](/contact)    
-
-![Get support](/images/PP_logo_default-300x64.png)
