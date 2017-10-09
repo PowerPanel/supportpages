@@ -1,11 +1,9 @@
 # Get the pricelist from the API
 
 You can get all the tld prices with the example below.
-Just fill in your own API key which can be found in your account in PowerPanel.
+Just fill in your own API key which can be found in your account in PowerPanel. You will have to whitelist the IP address from where you are running the script to make sure that it works. 
 
-You will have to whitelist the IP address from where you are running the script to make sure that it works.
-
-Note: Please make sure that you cache the prices for some time so that you don’t make a call every time someone visits the place where you show the prices.
+_Note: Please make sure that you cache the prices for some time so that you don’t make a call every time someone visits the place where you show the prices._
 
  
 ```php
@@ -33,7 +31,7 @@ if($resp && http_code == 200) {
     if($response[‘code’] == 1) {
         $result = $response[‘result’];
 
-        // Do something with the result (array met TLD’s/prijzen/etc)
+        // Do something with the result (array white TLD/prices/etc)
     }
 }
 curl_close($ch);
