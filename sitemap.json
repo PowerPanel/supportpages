@@ -76,20 +76,7 @@
           },
           "type": "folder",
           "name": "my_customers",
-          "items": [
-            {
-              "displayname": {
-                "en": "Adding users",
-                "nl": "Adding users"
-              },
-              "description": {
-                "en": "User manager for your account",
-                "nl": "User manager for your account"
-              },
-              "path": "/account_management/my_customers/add_user.md",
-              "permalink": "adding-users",
-              "type": "file"
-            },
+          "items": [          
             {
               "displayname": {
                 "en": "Adding customers",
