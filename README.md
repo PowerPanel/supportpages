@@ -14,8 +14,11 @@ For a cheetsheet download this file: https://guides.github.com/pdfs/markdown-che
 - In the root folder you have an images folder. Place all images you used in the articles in this folder (and make sure you don't overwrite any).
 - Each language has their own folder. The folder structure needs to coresponde on the structure of the sitemap.json. 
 - If you want to create support pages in a new language you can create a new language folder with the ISO two-letter language codes names (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-- Only translate the **values** for 'description', 'displayname' and 'permalink' in the json file. Leave the name and type unchanged  
 - In the root of this project you can find a sitemap.json file. This file is build on the default PowerPanel menu structure. This structure will also be used for showing the support pages on the website. 
+- Adding a new langauge you need also add the language to the sitemap.json file. Add a new value pair to the object 'description' and 'displayname' in the json file. Leave the name,permalink and type unchanged.  
+
+
+**Example of the items in sitemap.json**
 
 
 ``` json    
