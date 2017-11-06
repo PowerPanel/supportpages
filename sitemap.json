@@ -582,7 +582,7 @@
         }
       ]
     },
-     {
+    {
       "displayname": {
         "en": "API Documents",
         "nl": "API Documentatie"
@@ -634,6 +634,115 @@
           "type": "file"
         }
       ]
+    },
+    {
+      "name": "branding",
+      "type": "folder",
+      "description": {
+        "en": "PowerPanel Branding",
+        "nl": "PowerPanel Branding"
+      },
+      "displayname": {
+        "en": "Branding",
+        "nl": "Branding"
+      },
+      "items": [
+        {
+          "displayname": {
+            "en": "White label branding (CP)",
+            "nl": "White label branding (CP)"
+          },
+          "description": {
+            "en": "White label branding",
+            "nl": "White label branding"
+          },
+          "path": "/system/branding/white_label_branding.md",
+          "permalink": "white-label-branding",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "White label branding (Shop)",
+            "nl": "White label branding (Shop)"
+          },
+          "description": {
+            "en": "Branding your webshop",
+            "nl": "Branding en configureren van je webshop"
+          },
+          "path": "/system/branding/configuring_webshop.md",
+          "permalink": "configuring-webshop",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "CSS example",
+            "nl": "CSS voorbeeld"
+          },
+          "description": {
+            "en": "CSS example for the control panel",
+            "nl": "CSS voorbeeld voor het controle paneel"
+          },
+          "path": "/system/branding/css_example.md",
+          "permalink": "css-example",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Multicurrency",
+            "nl": "Multi valuta"
+          },
+          "description": {
+            "en": "Setup currency for the control panel",
+            "nl": "Valuta instellen voor het controle paneel"
+          },
+          "path": "/system/branding/multicurrency.md",
+          "permalink": "multicurrency",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Sending messages from PowerPanel",
+            "nl": "Versturen van berichten"
+          },
+          "description": {
+            "en": "Sending messages from PowerPanel",
+            "nl": "Versturen van e-mail berichten vanuit PowerPanel"
+          },
+          "path": "/system/branding/sending_messages_from_powerpanel.md",
+          "permalink": "sending-messages-from-powerpanel",
+          "type": "file"
+        }
+      ]
+    },
+
+    {
+      "displayname": {
+        "en": "Invoice settings",
+        "nl": "Factuur instellingen"
+      },
+      "description": {
+        "en": "PowerPanel Invoice settings",
+        "nl": "PowerPanel Factuur instellingen"
+      },
+      "name": "invoicesettings",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "PowerPanel billing",
+            "nl": "PowerPanel facturatie"
+          },
+          "description": {
+            "en": "PowerPanel billing",
+            "nl": "PowerPanel facturatie"
+          },
+          "path": "/system/settings/invoice_settings/invoicing_powerpanel.md",
+          "permalink": "invoicing-powerpanel",
+          "type": "file"
+        }
+      ]
     }
+  
+  
   ]
 }
