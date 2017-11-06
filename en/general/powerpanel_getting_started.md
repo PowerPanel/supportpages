@@ -26,6 +26,7 @@ Connect your domain registrar (OpenProvider) account to import all your domainna
 
 
 ### 6) Connecting your server to PowerPanel
+PowerPanel has support for three types of hosting systems: Plesk, DiretAdmin and cPanel.
 
 - [Add your Plesk server to PowerPanel](add-plesk-server)
 - [Connecting your DirectAdmin server](add-directadmin-server)
@@ -33,8 +34,10 @@ Connect your domain registrar (OpenProvider) account to import all your domainna
 ### 7) Setting up a hosting package
 
 
-### 8) Importing current hosting packages from your server
+### 8) Importing / connect websites from your server into PowerPanel
+After you have connected your hosting server, you are able to connect the existing websites to your customers.
 
+- [Import your current hosting](resolve-site-conflicts)
 
 ### 9) Setting up your SSL settings
 
