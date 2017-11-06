@@ -566,10 +566,22 @@
           "path": "/general/openprovider_generate_api_key.md",
           "permalink": "generate-openprovider-api-key",
           "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel Getting started",
+            "nl": "Snel starten met PowerPanel"
+          },
+          "description": {
+            "en": "Quik starters guide for PowerPanel. ",
+            "nl": "Snelstart handleiding voor PowerPanel"
+          },
+          "path": "/general/powerpanel_getting_started.md",
+          "permalink": "powerpanel-getting-started",
+          "type": "file"
         }
       ]
     },
-
      {
       "displayname": {
         "en": "API Documents",
