@@ -28,4 +28,6 @@ In the last section on this page, you can configure your own PowerPanel address.
 
 ![Branding url settings](/supportpages/images/cp_branding_url_settings.png)
 
-If you use your own URL you need to create a CNAME record in your dns zone that points to our IP address : 52.211.19.240
+If you use your own URL you need to create a CNAME record in your dns zone that points to our address : cp.powerpanel.io.
+In case you need to create an A record: 52.211.19.240.
+
