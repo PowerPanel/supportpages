@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <p>This is an example to send a prepared json object to your webshops shopping cart</p>
+            <p class="text-bold ">Example json object</p>
+            <code>
+                <pre>
+{
+    "domains": {
+        "google.be": {
+            "val_unit": 1,
+            "dt_id": 13,
+            "tld": "be",
+            "valuta": "EUR",
+            "sp_id": 3,
+            "sp_period": 12,
+            "da_id": 2,
+            "val_symbol": "€",
+            "request_price": 24,
+            "transfer_price": 49,
+            "renew_price": 49,
+            "dom_name": "google.be"
+        },
+        "google.nl": {
+            "val_unit": 1,
+            "dt_id": 14,
+            "tld": "nl",
+            "valuta": "EUR",
+            "sp_id": 3,
+            "sp_period": 12,
+            "da_id": 2,
+            "val_symbol": "€",
+            "request_price": 19.8,
+            "transfer_price": 29,
+            "renew_price": 9,
+            "dom_name": "google.nl"
+        }
+    }
+}
+</pre>
+            </code>
+            <br />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+
+            <form>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    <small class="form-text text-muted">E-mail address you want to use for single sign on.</small>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input id="sso" type="checkbox" class="form-check-input" value="true">
+                        Use Single Sign On.
+                    </label>
+                </div>
+                <div class="btn btn-primary" onclick="sendCartToShop()">Go to shopping cart</div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <script>
+
+        /* Function for demo how the add to cart function is working */
+        function sendCartToShop() {
+            var http = new XMLHttpRequest();
+            var baseUrl = 'https://demoshop.mypp.io';
+
+            var json = {
+                "cart": {
+                    "domains": {
+                        "google.be": {
+                            "val_unit": 1,
+                            "dt_id": 13,
+                            "tld": "be",
+                            "valuta": "EUR",
+                            "sp_id": 3,
+                            "sp_period": 12,
+                            "da_id": 2,
+                            "val_symbol": "€",
+                            "request_price": 24,
+                            "transfer_price": 49,
+                            "renew_price": 49,
+                            "dom_name": "google.be"
+                        },
+                        "google.nl": {
+                            "val_unit": 1,
+                            "dt_id": 14,
+                            "tld": "nl",
+                            "valuta": "EUR",
+                            "sp_id": 3,
+                            "sp_period": 12,
+                            "da_id": 2,
+                            "val_symbol": "€",
+                            "request_price": 19.8,
+                            "transfer_price": 29,
+                            "renew_price": 9,
+                            "dom_name": "google.nl"
+                        }
+                    }
+                }
+            };
+
+            /* Additional options. In this case SSO requested.
+            * If you know the e-mail address of the customer
+            * Webshop can create session for this user so he does not
+            * to logon
+            */
+
+            json.options = {};
+            json.options.sso = document.getElementById("sso").checked;
+            json.options.sso_user = document.getElementById("email").value;
+
+            // Open HTTP connection
+            http.open("POST", baseUrl + '/api/system/setShoppingCart/add', true);
+
+            // Send the proper header information along with the request
+            http.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+
+            // send POST request
+            http.send(JSON.stringify(json));
+
+            // Call a function when the state changes.
+            http.onreadystatechange = function () {
+                if (http.readyState == 4 && http.status == 200) {
+                    // Get the results from the POST
+                    var response = JSON.parse(http.responseText);
+
+                    // Do something
+                    if (response.status) {
+                        // Sending user to webshop shoppingcart
+                        window.location.href = response.redirect_url;
+                    } else {
+                        // something wrong, show error
+                        alert('Error: ' + response.msg);
+
+                        // Possible to use redirect_url, if sso has failed, customer need to logon his self
+                        // window.location.href = response.redirect_url;
+                    };
+                };
+            };
+        };
+    </script>
+</body>
+</html>

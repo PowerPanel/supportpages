@@ -526,7 +526,20 @@
               "type": "file"
             }
           ]
-        }
+        },
+                    {
+              "displayname": {
+                "en": "Webshop tips & tricks",
+                "nl": "Webshop tips & trucks"
+              },
+              "description": {
+                "en": "Need to know tips about the integrated webshop",
+                "nl": "Aantal tips welke je moet weten over de webshop"
+              },
+              "path": "/webshop/webshop_url_tricks.md",
+              "permalink": "webshop-url-tricks",
+              "type": "file"
+            }
       ]
     },
     {
