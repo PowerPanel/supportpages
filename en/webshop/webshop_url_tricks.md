@@ -76,7 +76,7 @@ da_id = domain action (1 = request new, 2 = transfer)
 Get all pricing information from API command ```Domain/getTldPriceList```
 ```
 
-[Download here a working example (html / javascript)](files/addtocart.html)
+[Download here a working example (html / javascript)](supportpages/files/addtocart.html)
 
 
 
