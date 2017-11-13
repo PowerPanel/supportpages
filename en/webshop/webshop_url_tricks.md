@@ -16,36 +16,38 @@ You have to combine this function on the ```Domain/getTldPriceList```. More info
 JSON object example:
 ```json
 {
-    "domains": {
-        "google.be": {
-            "val_unit": 1,
-            "dt_id": 13,
-            "tld": "be",
-            "valuta": "EUR",
-            "sp_id": 3,
-            "sp_period": 12,
-            "da_id": 2,
-            "val_symbol": "€",
-            "request_price": 24,
-            "transfer_price": 49,
-            "renew_price": 49,
-            "dom_name": "google.be"
-        },
-        "google.nl": {
-            "val_unit": 1,
-            "dt_id": 14,
-            "tld": "nl",
-            "valuta": "EUR",
-            "sp_id": 3,
-            "sp_period": 12,
-            "da_id": 2,
-            "val_symbol": "€",
-            "request_price": 19.8,
-            "transfer_price": 29,
-            "renew_price": 9,
-            "dom_name": "google.nl"
-        }
-    }
+	"cart": {
+		"domains": {
+			"google.be": {
+				"val_unit": 1,
+				"dt_id": 13,
+				"tld": "be",
+				"valuta": "EUR",
+				"sp_id": 3,
+				"sp_period": 12,
+				"da_id": 2,
+				"val_symbol": "€",
+				"request_price": 24,
+				"transfer_price": 49,
+				"renew_price": 49,
+				"dom_name": "google.be"
+			},
+			"google.nl": {
+				"val_unit": 1,
+				"dt_id": 14,
+				"tld": "nl",
+				"valuta": "EUR",
+				"sp_id": 3,
+				"sp_period": 12,
+				"da_id": 2,
+				"val_symbol": "€",
+				"request_price": 19.8,
+				"transfer_price": 29,
+				"renew_price": 9,
+				"dom_name": "google.nl"
+			}
+		}
+	}
 }
 ```
 
