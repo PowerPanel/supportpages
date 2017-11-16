@@ -524,6 +524,19 @@
               "path": "/system/plugins/spamexperts_email_filtering.md",
               "permalink": "spamexperts-email-filtering",
               "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Twinfield accounting plugin",
+                "nl": "Twinfield boekhoud koppeling"
+              },
+              "description": {
+                "en": "Connect PowerPanel to your Twinfield accounting software",
+                "nl": "Verbind PowerPanel met je Twinfield administratie"
+              },
+              "path": "/system/plugins/twinfield.md",
+              "permalink": "twinfield-plugin",
+              "type": "file"
             }
           ]
         },

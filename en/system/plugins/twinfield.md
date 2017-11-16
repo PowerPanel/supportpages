@@ -1,15 +1,15 @@
-# Twinfield
+# Twinfield Plugin
 
 With the Twinfield plugin you can import the invoices that PowerPanel generates into your Twinfield environment. At the moment you approve an invoice, it will be sent to your Twinfield environment.
 
 To start with setting up the Twinfield plugin in PowerPanel you will need to install the plugin first. Go to the marketplace at System -> Plugins and look for the Twinfield plugin. After you have installed the plugin you will see a screen with all the settings that are needed for the Twinfield plugin.
 
-![Twinfield settings](/images/plugin_twinfield_settings.png)
+![Twinfield settings](/supportpages/images/plugin_twinfield_settings.png)
 
 Fill in all the fields with your details. Make sure to fill in the VAT codes and the default ledger code as they are needed for the correct handling of the plugin.
 The invoices will be booked on Accounting -> Provisional Transactions in Twinfield.
 
-![Twinfield invoices](/images/twinfield_provisional_invoices.png)
+![Twinfield invoices](/supportpages/images/twinfield_provisional_invoices.png)
 
 We have two options available for importing the invoicelines into Twinfield, splitted out or grouped by product group. Use the switch in the settings to choose yourself.
 
@@ -23,6 +23,6 @@ https://{{your PowerPanel url}}/billing/details/invoicedetails/$freetext3/
 
 Click save and enable the setting in PowerPanel and then you are done.
 
-![Twinfield freetext3](/images/twinfield_freetext3.png)
+![Twinfield freetext3](/supportpages/images/twinfield_freetext3.png)
 
 It is really important that you enable the setting in Twinfield when you enable it in PowerPanel or the import to Twinfield will fail.
