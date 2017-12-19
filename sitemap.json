@@ -537,6 +537,19 @@
               "path": "/system/plugins/twinfield.md",
               "permalink": "twinfield-plugin",
               "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Adyen payment plugin settings",
+                "nl": "Adyen plugin betaal instellingen"
+              },
+              "description": {
+                "en": "Adyen payment plugin settings",
+                "nl": "Adyen payment plugin settings"
+              },
+              "path": "/system/plugins/adyen.md",
+              "permalink": "twinfield-plugin",
+              "type": "file"
             }
           ]
         },
