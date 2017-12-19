@@ -22,8 +22,10 @@ Note: you will have to select the platform that matches the enironment you will 
 ## Notification url:
 
 To check if a payment was succesfull your customers will be redirected back to PowerPanel after their payment. Customers can break off the process after they have payed their invoice but before they are redirected. 
-To make sure that PowerPanel gets a notification that the invoice has been payed you can set a notification URL in your adyen environment. To do this login to Adyen and go to Settings -> Server communication. 
-There you will add a standard notification and set the url to  https://{{your url}}/json-api/userresponse/adyenpayment/0, set the method to JSON. After that you are done. 
+To make sure that PowerPanel gets a notification that the invoice has been payed you can set a notification URL in your adyen environment. 
+
+To do this login to Adyen and go to Settings -> Server communication. 
+There you will add a standard notification and set the url to ```https://{{your url}}/json-api/userresponse/adyenpayment/0``` set the method to JSON. After that you are done. 
 PowerPanel will recieve a notification from Adyen whenever a payment is done by a customer.
 
 ![Adyen notification url](/supportpages/images/adyen_notification_url.png)
