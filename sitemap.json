@@ -548,7 +548,7 @@
                 "nl": "Adyen payment plugin settings"
               },
               "path": "/system/plugins/adyen.md",
-              "permalink": "twinfield-plugin",
+              "permalink": "adyen-plugin",
               "type": "file"
             }
           ]
