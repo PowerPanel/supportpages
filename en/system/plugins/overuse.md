@@ -1,8 +1,9 @@
-# Overuse
+# Monitor and charge overuse from websites
 
 PowerPanel gives you the possibility to charge your customers for their overusage on a hostingpackage. To use this feature you will have to go through the next steps to set up the system.
+On this moment we have only support for Plesk and Directadmin hosting systems.
 
-First you will have to set up a cronjob on your server with a script that you can get from https://github.com/PowerPanel/Overuse
+First you will have to set up a cronjob on your server with a script that you can get from [https://github.com/PowerPanel/Overuse](https://github.com/PowerPanel/Overuse) 
 Let this script run at least once each day to ensure that the data we receive is up te date.
 In the script you will have to set up a webhook url, you can find this unique url in the plugin settings. If for example you use Plesk, go to Settings -> Plugins -> Plugin Settings -> Plesk. 
 There you will find a that looks like this: https://api.powerpanel.io/hooks/uniquehash. Paste this in the script together with your admin credentials and you are good to go.
@@ -31,4 +32,3 @@ If you enable the email you will have to set up a message that can be sent to yo
 We have filled in a default mail, but you can customize this for your own needs.
 
 ![Overuse message](/supportpages/images/overuse_message.png)
-
