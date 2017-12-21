@@ -394,6 +394,19 @@
           "path": "/hosting/site_conflicts/resolve_site_conflicts.md",
           "permalink": "resolve-site-conflicts",
           "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Monitor and charge overusage",
+            "nl": "Oververbruik monitoren en doorbelasten"
+          },
+          "description": {
+            "en": "Monitor & carge the overuse of websites from your users",
+            "nl": "Monitor & carge the overuse of websites from your users"
+          },
+          "path": "/plugins/overuse.md",
+          "permalink": "monitor-charge-overusage",
+          "type": "file"
         }
       ]
     },
