@@ -404,7 +404,7 @@
             "en": "Monitor & carge the overuse of websites from your users",
             "nl": "Monitor & carge the overuse of websites from your users"
           },
-          "path": "/plugins/overuse.md",
+          "path": "/system/plugins/overuse.md",
           "permalink": "monitor-charge-overusage",
           "type": "file"
         }
