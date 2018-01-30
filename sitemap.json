@@ -563,7 +563,23 @@
               "path": "/system/plugins/adyen.md",
               "permalink": "adyen-plugin",
               "type": "file"
+            },
+
+            {
+              "displayname": {
+                "en": "PowerDNS - DNSSec add-on",
+                "nl": "PowerDNS - DNSSec module"
+              },
+              "description": {
+                "en": "Enable DNSSec management for PowerDNS",
+                "nl": "Enable DNSSec management for PowerDNS"
+              },
+              "path": "/system/plugins/powerpanel_powerdns_dnssec.md",
+              "permalink": "powerpanel-powerdns-dnssec",
+              "type": "file"
             }
+
+          
           ]
         },
                     {
