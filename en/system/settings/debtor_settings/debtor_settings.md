@@ -3,7 +3,7 @@
 You can manage the settings for your debtors.
 Go to System -> Settings -> Debtor settings to see the following screen.
 
-![Debtor settings](/images/debtor_settings.png)
+![Debtor settings](/supportpages/images/debtor_settings.png)
 
 In this screen you can manage your customer number prefix and the standard credit a customer can have. If a customer makes an order which goes above the credit, the y will have to pay directly. You can also set the standard payment terms.
 

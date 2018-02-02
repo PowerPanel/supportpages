@@ -1,22 +1,23 @@
 # Credit management
 
-In PowerPanel we have created a tool to do your credit management. It is not a default tool in your license, so you will have to activate it manually. To do this go to your license settings and activate the module.
+In PowerPanel you have a tool to assist your on credit management. It is not a default tool in your license, so you will have to activate it manually. 
+To do this go to your license settings and activate the module.
 
 Once the module is enabled you can go to Invoices -> Credit Management and see the dashboard
 
-![Credit management dashboard](/images/dashboard_credit_management.png)
+![Credit management dashboard](/supportpages/images/dashboard_credit_management.png)
 
 ### Settings
 
 In the settings tab you can manage the days after which an action needs to be made. These actions will be done on the days you set yourself. The days you set are the number of days after an invoice will get the status overdue. You can manage the due date in the debtor settings.
 
-![Credit management settings](/images/credit_management_settings.png)
+![Credit management settings](/supportpages/images/credit_management_settings.png)
 
 In the settings you can also set the default reminder letter and the default collection agency letter. If you want to print out your reminder letters they will get the layout you have set up.
 
 ### Management
 
-![Credit management](/images/credit_management_detail.png)
+![Credit management](/supportpages/images/credit_management_detail.png)
 
 In this screen you can manage the customers who need attention. If a customer has for example an overdue invoice he will appear in this list.
 On the right side of the screen you will see the customer details along with the debtor workflow actions.
@@ -28,7 +29,7 @@ You can also enable a followup for yourself, if you do this and set a date, the 
 If you scroll down you will see the notes you have set, if they are orange, nothing has yet been done with this note. You can click on the cross to ‘close’ this action and set it to done.
 Further down you will see the unpaid invoices for this customer.
 
-![Credit management detail](/images/credit_management_detail_1.png)
+![Credit management detail](/supportpages/images/credit_management_detail_1.png)
 
 ### Invoices by mail
 

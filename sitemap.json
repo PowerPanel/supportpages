@@ -2,59 +2,6 @@
   "structure": [
     {
       "displayname": {
-        "en": "Dashboard",
-        "nl": "Dashboard"
-      },
-      "description": {
-        "en": "Settings and need to know about the Dashboard",
-        "nl": "Instellingen en weetjes over het Dashboard"
-      },
-      "type": "folder",
-      "name": "dashboard",
-      "items": [
-        {
-          "displayname": {
-            "en": "Give access to your account",
-            "nl": "Toegang verlenen aan je account"
-          },
-          "description": {
-            "en": "You need help or you want to help someone, use the Support access",
-            "nl": "Heb je hulp nodig of wil je iemand anders helpen, gebruik dan de support toegang"
-          },
-          "path": "/dashboard/dashboard_support_access.md",
-          "permalink": "dashboard-support-access",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "Extending your license",
-            "nl": "Licentie verlengen"
-          },
-          "description": {
-            "en": "View, renew or terminate your license",
-            "nl": "Bekijk, verleng en je licentie opzeggen"
-          },
-          "path": "/dashboard/dashboard_manage_license.md",
-          "permalink": "dashboard-manage-your-license",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "Make a prepayment",
-            "nl": "Betaling doen"
-          },
-          "description": {
-            "en": "Make a prepayment and the payment options",
-            "nl": "Maak een pre-payment betaling"
-          },
-          "path": "/dashboard/dashboard_using_prepaid.md",
-          "permalink": "dashboard-using-prepaid",
-          "type": "file"
-        }
-      ]
-    },
-    {
-      "displayname": {
         "en": "Account management",
         "nl": "Account management"
       },
@@ -76,7 +23,7 @@
           },
           "type": "folder",
           "name": "my_customers",
-          "items": [          
+          "items": [
             {
               "displayname": {
                 "en": "Adding customers",
@@ -260,7 +207,6 @@
               "permalink": "change-end-date-subscription",
               "type": "file"
             }
-
           ]
         },
         {
@@ -274,6 +220,112 @@
           },
           "path": "/account_management/add_newuser.md",
           "permalink": "add-new-user",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "API Documents",
+        "nl": "API Documentatie"
+      },
+      "description": {
+        "en": "PowerPanel API & webhooks",
+        "nl": "PowerPanel API & webhooks"
+      },
+      "name": "api",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "API documentation & Examples",
+            "nl": "API documentatie & Voorbeelden"
+          },
+          "description": {
+            "en": "PowerPanel API",
+            "nl": "PowerPanel API"
+          },
+          "path": "/api/api_documentation.md",
+          "permalink": "api-documentation",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Generate API key",
+            "nl": "Generate API key"
+          },
+          "description": {
+            "en": "Activate API access & generate API key",
+            "nl": "Activate API access & generate API key"
+          },
+          "path": "/api/create_api_key.md",
+          "permalink": "create-api-key",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Get the pricelist from the API",
+            "nl": "Prijslist ophalen via API"
+          },
+          "description": {
+            "en": "Get the pricelist from the API",
+            "nl": "Prijslist ophalen via API"
+          },
+          "path": "/api/get_pricelist_api.md",
+          "permalink": "get-pricelist-api",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Dashboard",
+        "nl": "Dashboard"
+      },
+      "description": {
+        "en": "Settings and need to know about the Dashboard",
+        "nl": "Instellingen en weetjes over het Dashboard"
+      },
+      "type": "folder",
+      "name": "dashboard",
+      "items": [
+        {
+          "displayname": {
+            "en": "Give access to your account",
+            "nl": "Toegang verlenen aan je account"
+          },
+          "description": {
+            "en": "You need help or you want to help someone, use the Support access",
+            "nl": "Heb je hulp nodig of wil je iemand anders helpen, gebruik dan de support toegang"
+          },
+          "path": "/dashboard/dashboard_support_access.md",
+          "permalink": "dashboard-support-access",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Extending your license",
+            "nl": "Licentie verlengen"
+          },
+          "description": {
+            "en": "View, renew or terminate your license",
+            "nl": "Bekijk, verleng en je licentie opzeggen"
+          },
+          "path": "/dashboard/dashboard_manage_license.md",
+          "permalink": "dashboard-manage-your-license",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Make a prepayment",
+            "nl": "Betaling doen"
+          },
+          "description": {
+            "en": "Make a prepayment and the payment options",
+            "nl": "Maak een pre-payment betaling"
+          },
+          "path": "/dashboard/dashboard_using_prepaid.md",
+          "permalink": "dashboard-using-prepaid",
           "type": "file"
         }
       ]
@@ -346,6 +398,111 @@
     },
     {
       "displayname": {
+        "en": "General help",
+        "nl": "Algemene hulp"
+      },
+      "description": {
+        "en": "A collection of support items about general possibilities",
+        "nl": "Een aantal support items met een algemeen karakter"
+      },
+      "name": "general",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "Example collecting agency letter",
+            "nl": "Voorbeeld brief incasso bureau"
+          },
+          "description": {
+            "en": "Example letter for collecting agency. ",
+            "nl": "Voorbeeld brief voor het incasso bureau."
+          },
+          "path": "/general/example_collecting_agency_letter.md",
+          "permalink": "example-collecting-agency-letter",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Logon or request your password",
+            "nl": "Inloggen of je wachtwoord opvragen"
+          },
+          "description": {
+            "en": "You need help on how to logon to PowerPanel or lost your password?",
+            "nl": "Heb je hulp nodig om aan te melden op PowerPanel of ben je je wachtwoord kwijt?"
+          },
+          "path": "/general/general_howto_logon.md",
+          "permalink": "how-to-logon-or-request-password",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Openprovider generate API key",
+            "nl": "Openprovider API key genereren"
+          },
+          "description": {
+            "en": "Connect your Openprovider account to PowerPanel, You need to enable API access.",
+            "nl": "Verbind je Openprovider account met PowerPanel, je moet wel API toegang inschakelen"
+          },
+          "path": "/general/openprovider_generate_api_key.md",
+          "permalink": "generate-openprovider-api-key",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel Getting started",
+            "nl": "Snel starten met PowerPanel"
+          },
+          "description": {
+            "en": "Quik starters guide for PowerPanel. ",
+            "nl": "Snelstart handleiding voor PowerPanel"
+          },
+          "path": "/general/powerpanel_getting_started.md",
+          "permalink": "powerpanel-getting-started",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel invoicing Policy",
+            "nl": "PowerPanel facturatie beleid"
+          },
+          "description": {
+            "en": "Information about the PowerPanel invoicing Policy. ",
+            "nl": "Information over het facturatie beleid van PowerPanel."
+          },
+          "path": "/general/powerpanel_invoice_policy.md",
+          "permalink": "powerpanel-invoice-policy",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "SPF record PowerPanel",
+            "nl": "SPF record PowerPanel"
+          },
+          "description": {
+            "en": "SPF record PowerPanel",
+            "nl": "SPF record PowerPanel"
+          },
+          "path": "/general/powerpanel_spf_record.md",
+          "permalink": "powerpanel-spf-record",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel translations",
+            "nl": "PowerPanel vertalingen"
+          },
+          "description": {
+            "en": "PowerPanel translations",
+            "nl": "PowerPanel vertalingen"
+          },
+          "path": "/general/powerpanel_translations.md",
+          "permalink": "powerpanel-translations",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
         "en": "Hosting",
         "nl": "Hosting"
       },
@@ -407,8 +564,205 @@
           "path": "/system/plugins/overuse.md",
           "permalink": "monitor-charge-overusage",
           "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Manage domain aliasses",
+            "nl": "Beheer van domein aliasses"
+          },
+          "description": {
+            "en": "Manage, add or remove domain aliasses for your website",
+            "nl": "Beheer, toevoegen en verwijder van domein aliassen voor je website"
+          },
+          "path": "/hosting/my_websites/manage_aliasses.md",
+          "permalink": "manage-aliasses",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Manage databases",
+            "nl": "Beheer databases"
+          },
+          "description": {
+            "en": "Manage, add or remove databases for your website",
+            "nl": "Beheer, toevoegen en verwijder van database voor je website"
+          },
+          "path": "/hosting/my_websites/manage_databases.md",
+          "permalink": "manage-databases",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Manage e-mail",
+            "nl": "Beheer e-mail"
+          },
+          "description": {
+            "en": "Manage, add or remove e-mail on your website",
+            "nl": "Beheer, toevoegen en verwijder van e-mail voor je website"
+          },
+          "path": "/hosting/my_websites/manage_email.md",
+          "permalink": "manage-email",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Manage subdomain",
+            "nl": "Beheer subdomain"
+          },
+          "description": {
+            "en": "Manage, add or remove subdomains on your website",
+            "nl": "Beheer, toevoegen en verwijder van subdomains voor je website"
+          },
+          "path": "/hosting/my_websites/manage_subdomains.md",
+          "permalink": "manage-subdomains",
+          "type": "file"
         }
       ]
+    },
+    {
+      "displayname": {
+        "en": "Invoices",
+        "nl": "Facturen"
+      },
+      "description": {
+        "en": "Create invoices, sending invoice reminders, approve new invoices, manage payments, settings and more.",
+        "nl": "Facturen aanmaken, verzenden van herrineringen, goedkeuren van facturen, betalingen verwerken en andere instellingen."
+      },
+      "type": "folder",
+      "name": "invoice_management",
+      "items": [
+        {
+          "displayname": {
+            "en": "Create credit invoice",
+            "nl": "Credit factuur aanmaken"
+          },
+          "description": {
+            "en": "Create credit invoice for an customer",
+            "nl": "Credit factuur aanmaken voor een klant"
+          },
+          "path": "/invoices/create_credit_invoice.md",
+          "permalink": "create-credit-invoice",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Process a payment",
+            "nl": "Betaling verwerken"
+          },
+          "description": {
+            "en": "Process a payment for your customer",
+            "nl": "Een betaling verwerken voor een klant"
+          },
+          "path": "/invoices/process_payment.md",
+          "permalink": "process-payment",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Credit management",
+            "nl": "Debiteuren beheer"
+          },
+          "description": {
+            "en": "Credit management",
+            "nl": "Debiteuren beheer"
+          },
+          "path": "/invoices/credit_management.md",
+          "permalink": "credit-management",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Sale",
+        "nl": "Verkoop"
+      },
+      "description": {
+        "en": "Manage the orders from your customers. Manage webshop settings, branding, hosting plans, resources, coupon codes, discounts, domain extensions, prices and more.",
+        "nl": "Beheer van bestellingen van jouw klanten. Beheer webshop isntellingen, hosting pakketten, resources, coupon codes, kortingen, domein extensies, prijzen en meer "
+      },
+      "name": "sales",
+      "items": [
+        {
+          "displayname": {
+            "en": "Create hosting add-on",
+            "nl": "Hosting add-on aanmaken"
+          },
+          "description": {
+            "en": "Create hosting add-on",
+            "nl": "Hosting add-on aanmaken"
+          },
+          "path": "/sales/plans_and_pricing/create_hosting_addon.md",
+          "permalink": "create-hosting-addon",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Create hosting plan",
+            "nl": "Hosting pakket aanmaken"
+          },
+          "description": {
+            "en": "Create hosting plan",
+            "nl": "Hosting pakket aanmaken"
+          },
+          "path": "/sales/plans_and_pricing/create_hosting_plans.md",
+          "permalink": "create-hosting-plans",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Manage domain prices",
+            "nl": "Domeinprijzen beheren"
+          },
+          "description": {
+            "en": "Manage domain prices",
+            "nl": "Domeinprijzen beheren"
+          },
+          "path": "/sales/plans_and_pricing/manage_domainprices.md",
+          "permalink": "manage-domainprices",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Data export tool",
+            "nl": "Gegevens exporteren"
+          },
+          "description": {
+            "en": "Data export tool",
+            "nl": "Gegevens exporteren"
+          },
+          "path": "/sales/reports/export_tool.md",
+          "permalink": "data-export-tool",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Data reporting",
+            "nl": "Gegevens raportages"
+          },
+          "description": {
+            "en": "Data reporting",
+            "nl": "Gegevens raportages"
+          },
+          "path": "/sales/reports/reporting_tools.md",
+          "permalink": "reporting-tools",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Sales discount groups",
+            "nl": "Verkoop kortingsgroepen"
+          },
+          "description": {
+            "en": "Sales discount groups",
+            "nl": "Verkoop kortingsgroepen"
+          },
+          "path": "/sales/sales_discount/discount.md",
+          "permalink": "sales-discount-groups",
+          "type": "file"
+        }
+      ],
+      "type": "folder"
     },
     {
       "displayname": {
@@ -422,7 +776,7 @@
       "type": "folder",
       "name": "ssl_management",
       "items": [
-                {
+        {
           "displayname": {
             "en": "SSL management",
             "nl": "SSL management"
@@ -435,285 +789,19 @@
           "permalink": "ssl-management",
           "type": "file"
         }
-
       ]
     },
     {
-      "displayname": {
-        "en": "Sale",
-        "nl": "Verkoop"
-      },
-      "description": {
-        "en": "Manage the orders from your customers. Manage webshop settings, branding, hosting plans, resources, coupon codes, discounts, domain extensions, prices and more.",
-        "nl": "Beheer van bestellingen van jouw klanten. Beheer webshop isntellingen, hosting pakketten, resources, coupon codes, kortingen, domein extensies, prijzen en meer "
-      },
-      "type": "folder",
-      "name": "sales"
-    },
-    {
-      "displayname": {
-        "en": "Invoices",
-        "nl": "Facturen"
-      },
-      "description": {
-        "en": "Create invoices, sending invoice reminders, approve new invoices, manage payments, settings and more.",
-        "nl": "Facturen aanmaken, verzenden van herrineringen, goedkeuren van facturen, betalingen verwerken en andere instellingen."
-      },
-      "type": "folder",
-      "name": "invoice_management"
-    },
-    {
-      "displayname": {
-        "en": "System",
-        "nl": "Systeem"
-      },
-      "description": {
-        "en": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages.",
-        "nl": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages."
-      },
-      "type": "folder",
-      "name": "system",
-      "items": [
-        {
-          "displayname": {
-            "en": "Plugin settings",
-            "nl": "Plugin instellingen"
-          },
-          "description": {
-            "en": "PowerPanel plugin settings and other plugin options",
-            "nl": "PowerPanel plugin instellingen en andere plugin mogelijkheden"
-          },
-          "name": "plugin-settings",
-          "type": "folder",
-          "items": [
-            {
-              "displayname": {
-                "en": "PowerPanel Domain forwarding",
-                "nl": "PowerPanel Domain forwarding"
-              },
-              "description": {
-                "en": "Domain forwarding service in PowerPanel",
-                "nl": "Domain forwarding service in PowerPanel"
-              },
-              "path": "/system/plugins/powerpanel_domain_forwarding.md",
-              "permalink": "powerpanel-domain-forwarding",
-              "type": "file"
-            },
-            {
-              "displayname": {
-                "en": "PowerPanel DNS plugin",
-                "nl": "PowerPanel DNS plugin"
-              },
-              "description": {
-                "en": "PowerPanel DNS plugin",
-                "nl": "PowerPanel DNS plugin"
-              },
-              "path": "/system/plugins/powerpanel_dns_plugin.md",
-              "permalink": "powerpanel-dns-plugin",
-              "type": "file"
-            },
-            {
-              "displayname": {
-                "en": "Openprovider SSL plugin",
-                "nl": "Openprovider SSL plugin"
-              },
-              "description": {
-                "en": "Openprovider SSL plugin",
-                "nl": "Openprovider SSL plugin"
-              },
-              "path": "/system/plugins/openprovider_ssl_plugin.md",
-              "permalink": "openprovider-ssl-plugin",
-              "type": "file"
-            },
-            {
-              "displayname": {
-                "en": "Spamexperts e-mail filtering",
-                "nl": "Spamexperts e-mail filtering"
-              },
-              "description": {
-                "en": "Spamexperts e-mail filtering (in going & out going)",
-                "nl": "Spamexperts e-mail filtering (in en uitgaand)"
-              },
-              "path": "/system/plugins/spamexperts_email_filtering.md",
-              "permalink": "spamexperts-email-filtering",
-              "type": "file"
-            },
-            {
-              "displayname": {
-                "en": "Twinfield accounting plugin",
-                "nl": "Twinfield boekhoud koppeling"
-              },
-              "description": {
-                "en": "Connect PowerPanel to your Twinfield accounting software",
-                "nl": "Verbind PowerPanel met je Twinfield administratie"
-              },
-              "path": "/system/plugins/twinfield.md",
-              "permalink": "twinfield-plugin",
-              "type": "file"
-            },
-            {
-              "displayname": {
-                "en": "Adyen payment plugin settings",
-                "nl": "Adyen plugin betaal instellingen"
-              },
-              "description": {
-                "en": "Adyen payment plugin settings",
-                "nl": "Adyen payment plugin settings"
-              },
-              "path": "/system/plugins/adyen.md",
-              "permalink": "adyen-plugin",
-              "type": "file"
-            },
-
-            {
-              "displayname": {
-                "en": "PowerDNS - DNSSec add-on",
-                "nl": "PowerDNS - DNSSec module"
-              },
-              "description": {
-                "en": "Enable DNSSec management for PowerDNS",
-                "nl": "Enable DNSSec management for PowerDNS"
-              },
-              "path": "/system/plugins/powerpanel_powerdns_dnssec.md",
-              "permalink": "powerpanel-powerdns-dnssec",
-              "type": "file"
-            }
-
-          
-          ]
-        },
-                    {
-              "displayname": {
-                "en": "Webshop tips & tricks",
-                "nl": "Webshop tips & trucks"
-              },
-              "description": {
-                "en": "Need to know tips about the integrated webshop",
-                "nl": "Aantal tips welke je moet weten over de webshop"
-              },
-              "path": "/webshop/webshop_url_tricks.md",
-              "permalink": "webshop-url-tricks",
-              "type": "file"
-            }
-      ]
-    },
-    {
-      "displayname": {
-        "en": "General help",
-        "nl": "Algemene hulp"
-      },
-      "description": {
-        "en": "A collection of support items about general possibilities",
-        "nl": "Een aantal support items met een algemeen karakter"
-      },
-      "name": "general",
-      "type": "folder",
-      "items": [
-        {
-          "displayname": {
-            "en": "Logon or request your password",
-            "nl": "Inloggen of je wachtwoord opvragen"
-          },
-          "description": {
-            "en": "You need help on how to logon to PowerPanel or lost your password?",
-            "nl": "Heb je hulp nodig om aan te melden op PowerPanel of ben je je wachtwoord kwijt?"
-          },
-          "path": "/general/general_howto_logon.md",
-          "permalink": "how-to-logon-or-request-password",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "Openprovider generate API key",
-            "nl": "Openprovider API key genereren"
-          },
-          "description": {
-            "en": "Connect your Openprovider account to PowerPanel, You need to enable API access.",
-            "nl": "Verbind je Openprovider account met PowerPanel, je moet wel API toegang inschakelen"
-          },
-          "path": "/general/openprovider_generate_api_key.md",
-          "permalink": "generate-openprovider-api-key",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "PowerPanel Getting started",
-            "nl": "Snel starten met PowerPanel"
-          },
-          "description": {
-            "en": "Quik starters guide for PowerPanel. ",
-            "nl": "Snelstart handleiding voor PowerPanel"
-          },
-          "path": "/general/powerpanel_getting_started.md",
-          "permalink": "powerpanel-getting-started",
-          "type": "file"
-        }
-      ]
-    },
-    {
-      "displayname": {
-        "en": "API Documents",
-        "nl": "API Documentatie"
-      },
-      "description": {
-        "en": "PowerPanel API & webhooks",
-        "nl": "PowerPanel API & webhooks"
-      },
-      "name": "api",
-      "type": "folder",
-      "items": [
-        {
-          "displayname": {
-            "en": "API documentation & Examples",
-            "nl": "API documentatie & Voorbeelden"
-          },
-          "description": {
-            "en": "PowerPanel API",
-            "nl": "PowerPanel API"
-          },
-          "path": "/api/api_documentation.md",
-          "permalink": "api-documentation",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "Generate API key",
-            "nl": "Generate API key"
-          },
-          "description": {
-            "en": "Activate API access & generate API key",
-            "nl": "Activate API access & generate API key"
-          },
-          "path": "/api/create_api_key.md",
-          "permalink": "create-api-key",
-          "type": "file"
-        },
-        {
-          "displayname": {
-            "en": "Get the pricelist from the API",
-            "nl": "Prijslist ophalen via API"
-          },
-          "description": {
-            "en": "Get the pricelist from the API",
-            "nl": "Prijslist ophalen via API"
-          },
-          "path": "/api/get_pricelist_api.md",
-          "permalink": "get-pricelist-api",
-          "type": "file"
-        }
-      ]
-    },
-    {
-      "name": "branding",
-      "type": "folder",
-      "description": {
-        "en": "PowerPanel Branding",
-        "nl": "PowerPanel Branding"
-      },
       "displayname": {
         "en": "Branding",
         "nl": "Branding"
       },
+      "description": {
+        "en": "PowerPanel Branding",
+        "nl": "PowerPanel Branding"
+      },
+      "name": "branding",
+      "type": "folder",
       "items": [
         {
           "displayname": {
@@ -782,7 +870,282 @@
         }
       ]
     },
-
+    {
+      "displayname": {
+        "en": "Plugin settings",
+        "nl": "Plugin instellingen"
+      },
+      "description": {
+        "en": "PowerPanel plugin settings and other plugin options",
+        "nl": "PowerPanel plugin instellingen en andere plugin mogelijkheden"
+      },
+      "name": "plugin-settings",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "Adyen payment plugin settings",
+            "nl": "Adyen plugin betaal instellingen"
+          },
+          "description": {
+            "en": "Adyen payment plugin settings",
+            "nl": "Adyen payment plugin settings"
+          },
+          "path": "/system/plugins/adyen.md",
+          "permalink": "adyen-plugin",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Setup Exact online plugin",
+            "nl": "Instelleren Exact online plugin"
+          },
+          "description": {
+            "en": "Setup Exact online plugin",
+            "nl": "Instaleren Exact online plugin"
+          },
+          "path": "/system/plugins/exact_online.md",
+          "permalink": "exact-online",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Openprovider DNS plugin",
+            "nl": "Openprovider DNS plugin"
+          },
+          "description": {
+            "en": "Openprovider DNS plugin",
+            "nl": "Openprovider DNS plugin"
+          },
+          "path": "/system/plugins/openprovider_dns_plugin.md",
+          "permalink": "openprovider-dns-plugin",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Openprovider SSL plugin",
+            "nl": "Openprovider SSL plugin"
+          },
+          "description": {
+            "en": "Openprovider SSL plugin",
+            "nl": "Openprovider SSL plugin"
+          },
+          "path": "/system/plugins/openprovider_ssl_plugin.md",
+          "permalink": "openprovider-ssl-plugin",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Monitor and charge overusage",
+            "nl": "Oververbruik monitoren en doorbelasten"
+          },
+          "description": {
+            "en": "Monitor & carge the overuse of websites from your users",
+            "nl": "Monitor & carge the overuse of websites from your users"
+          },
+          "path": "/system/plugins/overuse.md",
+          "permalink": "monitor-charge-overusage",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel DNS plugin",
+            "nl": "PowerPanel DNS plugin"
+          },
+          "description": {
+            "en": "PowerPanel DNS plugin",
+            "nl": "PowerPanel DNS plugin"
+          },
+          "path": "/system/plugins/powerpanel_dns_plugin.md",
+          "permalink": "powerpanel-dns-plugin",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel Domain forwarding",
+            "nl": "PowerPanel Domain forwarding"
+          },
+          "description": {
+            "en": "Domain forwarding service in PowerPanel",
+            "nl": "Domain forwarding service in PowerPanel"
+          },
+          "path": "/system/plugins/powerpanel_domain_forwarding.md",
+          "permalink": "powerpanel-domain-forwarding",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel mail forwarding",
+            "nl": "PowerPanel mail forwarding"
+          },
+          "description": {
+            "en": "PowerPanel mail forwarding",
+            "nl": "PowerPanel mail forwarding"
+          },
+          "path": "/system/plugins/powerpanel_mail_forwarder.md",
+          "permalink": "powerpanel-mail-forwarder",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerDNS - DNSSec add-on",
+            "nl": "PowerDNS - DNSSec module"
+          },
+          "description": {
+            "en": "Enable DNSSec management for PowerDNS",
+            "nl": "Enable DNSSec management for PowerDNS"
+          },
+          "path": "/system/plugins/powerpanel_powerdns_dnssec.md",
+          "permalink": "powerpanel-powerdns-dnssec",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Spamexperts e-mail filtering",
+            "nl": "Spamexperts e-mail filtering"
+          },
+          "description": {
+            "en": "Spamexperts e-mail filtering (in going & out going)",
+            "nl": "Spamexperts e-mail filtering (in en uitgaand)"
+          },
+          "path": "/system/plugins/spamexperts_email_filtering.md",
+          "permalink": "spamexperts-email-filtering",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Twinfield accounting plugin",
+            "nl": "Twinfield boekhoud koppeling"
+          },
+          "description": {
+            "en": "Connect PowerPanel to your Twinfield accounting software",
+            "nl": "Verbind PowerPanel met je Twinfield administratie"
+          },
+          "path": "/system/plugins/twinfield.md",
+          "permalink": "twinfield-plugin",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Debtor settings",
+        "nl": "Debiteuren instellingen"
+      },
+      "description": {
+        "en": "Debtor settings",
+        "nl": "Debiteuren instellingen"
+      },
+      "name": "debtorsettings",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "Create new customer",
+            "nl": "Nieuwe klant aanmaken"
+          },
+          "description": {
+            "en": "Create new customer",
+            "nl": "Nieuwe klant aanmaken"
+          },
+          "path": "/system/settings/debtor_settings/create_customer.md",
+          "permalink": "create-customer",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Debtor settings",
+            "nl": "Debiteuren instellingen"
+          },
+          "description": {
+            "en": "Debtor settings",
+            "nl": "Debiteuren instellingen"
+          },
+          "path": "/system/settings/debtor_settings/debtor_settings.md",
+          "permalink": "debot-settings",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Newsletter settings",
+            "nl": "Nieuwsbrief instellingen"
+          },
+          "description": {
+            "en": "Newsletter settings",
+            "nl": "Nieuwsbrief instellingen"
+          },
+          "path": "/system/settings/debtor_settings/newsletter_settings.md",
+          "permalink": "newsletter-settings",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "Domain settings",
+        "nl": "Domein instellingen"
+      },
+      "description": {
+        "en": "Domain settings",
+        "nl": "Domein instellingen"
+      },
+      "name": "domainsettings",
+      "type": "folder",
+      "items": [
+        {
+          "displayname": {
+            "en": "Customer domain contacts",
+            "nl": "Klant domein contacten"
+          },
+          "description": {
+            "en": "Customer domain contacts",
+            "nl": "Klant domein contacten"
+          },
+          "path": "/system/settings/domain_settings/customers_manage_domaincontacts.md",
+          "permalink": "customers-manage-domaincontacts",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Default master DNS template",
+            "nl": "Standaard master DNS template"
+          },
+          "description": {
+            "en": "Default master DNS template",
+            "nl": "Standaard master DNS template"
+          },
+          "path": "/system/settings/domain_settings/default_dns_template.md",
+          "permalink": "default-dns-template",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Set default domain contacts",
+            "nl": "Instellen default domeincontacten"
+          },
+          "description": {
+            "en": "Set default domain contacts",
+            "nl": "Instellen default domeincontacten"
+          },
+          "path": "/system/settings/domain_settings/default_domain_contacts.md",
+          "permalink": "default-domain-contacts",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Set default name servers",
+            "nl": "Instellen default name servers"
+          },
+          "description": {
+            "en": "Set default name servers",
+            "nl": "Instellen default name servers"
+          },
+          "path": "/system/settings/domain_settings/default_name_servers.md",
+          "permalink": "default-name-servers",
+          "type": "file"
+        }
+      ]
+    },
     {
       "displayname": {
         "en": "Invoice settings",
@@ -797,6 +1160,32 @@
       "items": [
         {
           "displayname": {
+            "en": "PowerPanel expample invoice",
+            "nl": "PowerPanel voorbeeld factuur"
+          },
+          "description": {
+            "en": "PowerPanel expample invoice",
+            "nl": "PowerPanel voorbeeld factuur"
+          },
+          "path": "/system/settings/invoice_settings/example_invoice_html.md",
+          "permalink": "example-invoice-html",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel invoice paramters",
+            "nl": "PowerPanel factuur parameters"
+          },
+          "description": {
+            "en": "PowerPanel invoice paramters",
+            "nl": "PowerPanel factuur parameters"
+          },
+          "path": "/system/settings/invoice_settings/invoice_parameters.md",
+          "permalink": "invoice-parameters",
+          "type": "file"
+        },
+        {
+          "displayname": {
             "en": "PowerPanel billing",
             "nl": "PowerPanel facturatie"
           },
@@ -807,10 +1196,100 @@
           "path": "/system/settings/invoice_settings/invoicing_powerpanel.md",
           "permalink": "invoicing-powerpanel",
           "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel invoice settings",
+            "nl": "PowerPanel factuur instellingen"
+          },
+          "description": {
+            "en": "PowerPanel invoice settings",
+            "nl": "PowerPanel factuur instellingen"
+          },
+          "path": "/system/settings/invoice_settings/powerpanel_invoice_settings.md",
+          "permalink": "powerpanel-invoice-settings",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel prepaid setup",
+            "nl": "PowerPanel prepaid instellingen"
+          },
+          "description": {
+            "en": "PowerPanel prepaid setup",
+            "nl": "PowerPanel prepaid instellingen"
+          },
+          "path": "/system/settings/invoice_settings/powerpanel_prepaid.md",
+          "permalink": "powerpanel-prepaid",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "displayname": {
+        "en": "System settings",
+        "nl": "Systeem instellingen"
+      },
+      "description": {
+        "en": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages.",
+        "nl": "Configure your own PowerPanel settings, branding, language options, permissions, invoice settings, create system messages."
+      },
+      "type": "folder",
+      "name": "system",
+      "items": [
+        {
+          "displayname": {
+            "en": "Webshop tips & tricks",
+            "nl": "Webshop tips & trucks"
+          },
+          "description": {
+            "en": "Need to know tips about the integrated webshop",
+            "nl": "Aantal tips welke je moet weten over de webshop"
+          },
+          "path": "/webshop/webshop_url_tricks.md",
+          "permalink": "webshop-url-tricks",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "Auto renew settings",
+            "nl": "Automatisch vernieuw instellingen"
+          },
+          "description": {
+            "en": "Auto renew settings",
+            "nl": "Automatisch vernieuw instellingen"
+          },
+          "path": "/system/settings/system_settings/auto_renew.md",
+          "permalink": "auto-renew-settings",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "PowerPanel system messages",
+            "nl": "PowerPanel systeem e-mail berichten"
+          },
+          "description": {
+            "en": "PowerPanel system messages",
+            "nl": "PowerPanel systeem e-mail berichten"
+          },
+          "path": "/system/settings/system_settings/system_messages.md",
+          "permalink": "system-messages",
+          "type": "file"
+        },
+        {
+          "displayname": {
+            "en": "User permissions and groups",
+            "nl": "gebruikers rechten en groepen"
+          },
+          "description": {
+            "en": "User permissions and groups",
+            "nl": "gebruikers rechten en groepen"
+          },
+          "path": "/system/settings/system_settings/user_rights.md",
+          "permalink": "user-rights",
+          "type": "file"
         }
       ]
     }
-  
-  
   ]
 }

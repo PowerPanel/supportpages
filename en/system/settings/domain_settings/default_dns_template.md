@@ -4,6 +4,6 @@ If a customer orders a domainname in your webshop, the DNS zone will be filled w
 
 Go to System -> Settings -> Domain settings and scroll down.
 
-![DNS template management](/images/dns_template_management.png)
+![DNS template management](/supportpages/images/dns_template_management.png)
 
 You can edit or delete the current records or add new records.

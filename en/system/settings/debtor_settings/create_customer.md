@@ -9,11 +9,11 @@ The customer can create an account for themself on the login page for your contr
 
 To enable this go to System -> Settings -> Debtor settings and switch on the setting “Allow new registrations”
 
-![Allow new registration](/images/allow_new_registrations.png)
+![Allow new registration](/supportpages/images/allow_new_registrations.png)
 
 This enables the button in the next screen
 
-![Registration button](/images/registration_button.png)
+![Registration button](/supportpages/images/registration_button.png)
 
 (The screen language is decided by the local of your computer)
 

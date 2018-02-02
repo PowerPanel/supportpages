@@ -1,9 +1,13 @@
 # Collection agency letter example
 
-If an invoice has not been payed by your customer after a few reminders the invoice will get the status, collection agency. You can find all the invoices that needs to be sent to the collection agency in the credit management tool at the tab -> Invoices for collection agency. There you can print out the letter. You will need a template for the letter to be able to print out the letter. In the settings tab you can enter the letter for this. Below you will find an example for that letter.
+If an invoice has not been payed by your customer after a few reminders the invoice will get the status, collection agency. 
+You can find all the invoices that needs to be sent to the collection agency in the credit management tool at the tab -> Invoices for collection agency. There you can print out the letter. 
+
+You will need a template for the letter to be able to print out the letter. In the settings tab you can enter the letter for this. Below you will find an example for that letter.
 
 ### Letter to collection agency
 
+```
 Dear employee,
 
 Here a new collection assignment.
@@ -28,14 +32,14 @@ Invoice total: € {{invoice.total}}
 In the appendix you will find a copy of the invoice. If you have any questions about this letter i would like to hear from you.
 With kind regards,
 Administration {{vendor.name}}
-
+```
 
 ### Letter to your customer
 
 Below you will find an example for a reminder letter for your customer that can be sent.
 
  
-
+ ```
 {{address_block}}
 
 Customernumber:	{{customer_id}}
@@ -59,3 +63,4 @@ With kinds regards,
 
 Administration {{vendor.name}}
 
+```
