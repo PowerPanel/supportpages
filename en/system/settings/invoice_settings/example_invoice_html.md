@@ -1,5 +1,7 @@
 # Example html invoice PowerPanel
 
+This is the default invoice template we have loaded for you already. If you want to change you can take the below code and make same changes.
+
 ```html
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">

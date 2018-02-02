@@ -12,7 +12,9 @@ When you enable the prepaid module your customer can receive a number of e-mails
 -Each year in january your customer will receive an overview with all the transactions.
 
 Settings
-At the debtor settings you can set the number of days that the system will renew the subscriptions before the subscription will expire. You can also manage the hour of the day that you want the system to renew the subscriptions.
+At the debtor settings you can set the number of days that the system will renew the subscriptions before the subscription will expire. 
+You can also manage the hour of the day that you want the system to renew the subscriptions.
 It is also possible to set the number of days and the hour of the day that a notification will be sent about the renewal.
 
-![Auto renewal settings](/images/auto_renewal_settings.png)
+![Auto renewal settings](/supportpages/images/auto_renewal_settings.png)
+
