@@ -30,3 +30,9 @@ After you click on this icon, it will gives you the dialog witch is shown the su
 ![subscription_details](/supportpages/images/pending_transfer.png)
 
 In here you can click the remove button to deni the transfer. Click the green button accept, will make the subscriptions active in your account.
+
+
+
+### Good to know
+- After you have start the transfer to an other customer. The status of the subscription will change to "Pending change owner". This will give you an over view of the subscriptions are has a pending status.
+- On the moment you click approve on the pending transfers dialog (end users) it will take a while before al actions has been completed. Because in some case theire need to process a lot of information in the background.
