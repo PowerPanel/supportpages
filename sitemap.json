@@ -37,6 +37,17 @@
               "permalink": "adding-customer",
               "type": "file"
             },
+	        {
+	          "displayname": {
+	            "en": "Logging in as a Customer",
+	          },
+	          "description": {
+	            "en": "How to log in as a customer",
+	          },
+	          "path": "/account_management/my_customers/login_as_customer.md",
+	          "permalink": "login-as-customer",
+	          "type": "file"
+	        },
             {
               "displayname": {
                 "en": "Customer users",
@@ -406,6 +417,17 @@
           "type": "file",
           "path": "/domain_names/domain_import.md",
           "permalink": "domain-import"
+        },
+        {
+          "displayname": {
+            "en": "Transferring a domain"
+          },
+          "description": {
+            "en": "How to transfer a domain"
+          },
+          "type": "file",
+          "path": "/domain_names/transferring_a_domain.md",
+          "permalink": "transferring-a-domain"
         }
       ]
     },
