@@ -39,10 +39,10 @@
             },
 	        {
 	          "displayname": {
-	            "en": "Logging in as a Customer",
+	            "en": "Logging in as a Customer"
 	          },
 	          "description": {
-	            "en": "How to log in as a customer",
+	            "en": "How to log in as a customer"
 	          },
 	          "path": "/account_management/my_customers/login_as_customer.md",
 	          "permalink": "login-as-customer",
