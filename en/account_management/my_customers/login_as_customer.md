@@ -27,10 +27,3 @@ A dialog will display showing a "Login Now" button, clicking this button will op
 
 In this article we looked at how to log into PowerPanel as one of your customers. This allows you to make changes on your customers behalf, but be careful to check that you are logged into the right account before ordering or transferring domains.
 
-### Last but not least
-Do you need anymore help or is this article not clear enough? Please contact us here: [Contact us](/contact). You can also improve this document to leave any suggestions in here [Edit this page on Github](template.md#1)
-
-- Have feedback on this post? [Let @powerpanel_EN know on Twitter](https://twitter.com/intent/tweet?text=@powerpanel_en)
-- Need help or found a bug? [Contact us](/contact)    
-
-![Get support](/template/images/template_image_6.jpg)

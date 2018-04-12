@@ -98,8 +98,3 @@ For resellers we have also seen that it is important to ensure that we are logge
 
 We have also seen how we can correct problems with the transfer and restart the process.
 
-### Last but not least
-Do you need anymore help or is this article not clear enough? Please contact us here: [Contact us](/contact). You can also improve this document to leave any suggestions in here [Edit this page on Github](template.md#1)
-
-- Have feedback on this post? [Let @powerpanel_EN know on Twitter](https://twitter.com/intent/tweet?text=@powerpanel_en)
-- Need help or found a bug? [Contact us](/contact)
