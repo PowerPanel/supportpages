@@ -5,7 +5,7 @@ You can use a few url’s to the webshop to link them directly from your own sit
 Check a domain directly: https://demoshop.mypp.io/checkdomain?domain=google.com
 You can use an input field on your website, and send the GET request to the webshop to start the domain checker.
 
-An other option is to implement the API command [domain/available](https://api.powerpanel.io/docs/Domain/available)
+An other option is to implement the API command [domain/available](https://api.powerpanel.io/docs/Domain/available) 
 
 
 ### Send data to the shoppingcart of your webshop (Experimental)
