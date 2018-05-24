@@ -1,7 +1,7 @@
 ﻿# View, add and edit users for this customer
 
 
-### Sorry, this page is not finished jet. 
+### Sorry, this page is not finished yet. 
 
 If you think you can help to create this page, please help us and contribute to the PowerPanel support pages.
 

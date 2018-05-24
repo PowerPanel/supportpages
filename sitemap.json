@@ -1,4 +1,4 @@
-﻿{
+{
   "structure": [
     {
       "displayname": {
@@ -216,6 +216,19 @@
               },
               "path": "/account_management/my_subscriptions/change_end_date_subscription.md",
               "permalink": "change-end-date-subscription",
+              "type": "file"
+            },
+            {
+              "displayname": {
+                "en": "Change subscription owner",
+                "nl": "Wijzig abonnement eigenaar"
+              },
+              "description": {
+                "en": "Transfer a subscription to an other customer",
+                "nl": "Draag een abonnement over aan een andere klant"
+              },
+              "path": "/account_management/my_subscriptions/change_subscription_owner.md",
+              "permalink": "change-subscription-owner",
               "type": "file"
             }
           ]
