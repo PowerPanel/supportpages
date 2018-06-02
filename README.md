@@ -1,4 +1,5 @@
-# PowerPanel support pages
+# PowerPanel support pages (DEPRECATED)
+PowerPanel support pages are moved the Zendesk helpcenter. So this repository will not maintained by the PowerPanel team anymore. Feel free to use the pages from this repository.
 
 ## Public available support content for website (http://powerpanel.io/support)
 
